@@ -3,9 +3,9 @@ designation_date: 2022-06-10
 defining_snps:
   - 34472: T
 reference_sequences:
-  - database: Genbank
+  - source: genbank
     accession: ON674051
-  - database: Genbank
+  - source: genbank
     accession: ON676707
-  - database: Genbank
+  - source: genbank
     accession: ON675438

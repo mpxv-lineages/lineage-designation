@@ -4,6 +4,6 @@ designation_date: 2022-06-10
 defining_snps:
   - 34459: A
 reference_sequences:
-  - database: Genbank
+  - source: genbank
     accession: ON694329
     isolate: MPXV/Germany/2022/RKI025

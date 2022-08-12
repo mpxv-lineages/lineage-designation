@@ -3,6 +3,6 @@ designation_date: 2022-08-08
 defining_snps:
   - 186165: A
 reference_sequences:
-  - database: Genbank
+  - source: genbank
     accession: ON929079
     isolate: MPXV/Germany/2022/RKI124

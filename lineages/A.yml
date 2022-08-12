@@ -4,12 +4,11 @@ defining_snps:
   - 19367: T
   - 48527: A
 reference_sequences:
-  - database: Genbank
+  - source: genbank
     accession: NC_063383
     isolate: MPXV-M5312_HM12_Rivers
-  - database: Genbank
+  - source: genbank
     accession: MT903337
     isolate: MPXV-M2940_FCT
-  - database: Genbank
+  - source: genbank
     accession: MK783031
-  

@@ -3,6 +3,6 @@ designation_date: 2022-08-08
 defining_snps:
   - 70780: T
 reference_sequences:
-  - database: Genbank
+  - source: genbank
     accession: ON959175
     isolate: MPXV/Germany/2022/RKI162
