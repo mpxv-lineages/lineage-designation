@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+type: object
+required:
+  - name
+  - designation_date
+  - defining_snps
+  - reference_sequences
+properties:
+  name:
+    type: string
+    description: The name of the lineage, must match file name
+  alias:
+    type: string
+    description: The alias of the lineage, must not contain `.`
+  designation_date:
+    type: string
+    description: The date the lineage was designated
+  defining_snps:
+    type: array
+    uniqueItems: true
+    description: The defining SNPs of the lineage.
+    items:
+      type: object
+      patternProperties:
+        "^[1-9]+[0-9]*$":
+          enum: [A, C, G, T]
+      description: Keys are 1-indexed nucleotide positions, values are one of A, C, T ,G
+  reference_sequences:
+    type: array
+    uniqueItems: true
+    description: Reference sequence(s) of the lineage. If there are multiple sequences listed, they stand in for their MRCA.
+    items:
+      type: object
+      required:
+        - source
+        - accession
+      properties:
+        source:
+          enum:
+            - genbank
+          description: Source of the reference sequence, e.g. genbank
+        accession:
+          type: string
+          description: The accession of the reference sequence.
+        isolate:
+          type: string
+          description: The isolate (aka strain) name of the reference sequence.
