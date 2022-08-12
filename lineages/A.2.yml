@@ -1,0 +1,11 @@
+name: B.1.1
+designation_date: 2022-06-10
+defining_snps:
+  - 34472: T
+reference_sequences:
+  - database: Genbank
+    accession: ON674051
+  - database: Genbank
+    accession: ON676707
+  - database: Genbank
+    accession: ON675438

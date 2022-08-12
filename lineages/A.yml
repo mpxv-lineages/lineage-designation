@@ -1,0 +1,15 @@
+name: A
+designation_date: 2022-06-10
+defining_snps:
+  - 19367: T
+  - 48527: A
+reference_sequences:
+  - database: Genbank
+    accession: NC_063383
+    isolate: MPXV-M5312_HM12_Rivers
+  - database: Genbank
+    accession: MT903337
+    isolate: MPXV-M2940_FCT
+  - database: Genbank
+    accession: MK783031
+  

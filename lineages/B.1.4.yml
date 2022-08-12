@@ -1,0 +1,14 @@
+name: B.1.4
+designation_date: 2022-08-08
+defining_snps:
+  - 34308: A
+reference_sequences:
+  - database: Genbank
+    accession: ON880511
+    isolate: MpxV/human/CAN/UN-NML-3214/2022
+  - database: Genbank
+    accession: ON880519
+    isolate: MpxV/human/CAN/UN-NML-2833/2022
+  - database: Genbank
+    accesion: ON983163
+    isolate: MpxV/human/CAN/UN-NML-3532/2022
