@@ -1,6 +1,6 @@
 # Designation of 5 initial B.1 sublineages
 
-#### Cornelius Roemer, Emma Hodcroft, Houriiyah Tegally, Aine O’Toole, Crystal Gigante, Nikita Sitharam, Trevor Bedford, Vitor Borges, Richard Neher, Andrew Rambaut
+#### Cornelius Roemer, Emma Hodcroft, Christian Happi, Crystal Gigante, Ifedayo Adetifa, Placide Mbala, Richard Njouom, Emmanuel Nakoune, Anise Happi, Naemeka Ndodo, Oyeronke Ayansola, Gerald Mboowa, Oliver Pybus, Moritz U.G. Kraemer, Eduan Wilkinson, Joana Isidro, Miguel Pinto, João Paulo Gomes, Cheryl Baxter, Richard Lessells, Ahmed E Ogwell, Yenew Kebede, Houriiyah Tegally, Áine O’Toole, Nikita Sitharam, Trevor Bedford, Sofonias K Tessema, Tulio de Oliveira, Vitor Borges, Richard Neher, Andrew Rambaut
 
 The continued detection of monkeypox cases around the world has led to a similar increase in the sequencing of these cases, and thus the availability of increasing genetic information about the current cases. As suggested in Happi et al. (2022) [[1](#ref_1)], we have extended the proposed Pango-based nomenclature scheme to designate additional lineages within the B.1 ‘outbreak’ clade. The continued designation of new lineages of the B.1 outbreak is particularly timely in order to help avoid geographical or otherwise stigmatizing names (for example, presumed associations with particular events or locations) while providing useful handles for the scientists, clinicians, and healthcare workers who need to discuss specific groups on the phylogenetic tree. 
 
