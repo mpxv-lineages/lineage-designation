@@ -2,7 +2,8 @@
 name: B.1.2
 designation_date: "2022-08-08"
 defining_snps:
-  - 186165: A
+  - pos: 186165
+    nucleotide: A
 reference_sequences:
   - source: genbank
     accession: ON929079

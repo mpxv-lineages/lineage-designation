@@ -2,7 +2,8 @@
 name: A.2
 designation_date: "2022-06-10"
 defining_snps:
-  - 34472: T
+  - pos: 34472
+    nucleotide: T
 reference_sequences:
   - source: genbank
     accession: ON674051

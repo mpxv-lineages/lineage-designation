@@ -3,7 +3,8 @@ name: A.1.1
 alias: B
 designation_date: "2022-06-10"
 defining_snps:
-  - 34459: A
+  - pos: 34459
+    nucleotide: A
 reference_sequences:
   - source: genbank
     accession: ON694329

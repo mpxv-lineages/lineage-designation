@@ -2,7 +2,8 @@
 name: A.1
 designation_date: "2022-06-10"
 defining_snps:
-  - 83326: T
+  - pos: 83326
+    nucleotide: T
 reference_sequences:
   - source: genbank
     accession: MT903342

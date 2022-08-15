@@ -1,5 +1,6 @@
 # yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
 type: object
+additionalProperties: false
 required:
   - name
   - designation_date
@@ -21,10 +22,13 @@ properties:
     description: The defining SNPs of the lineage.
     items:
       type: object
-      patternProperties:
-        "^[1-9]+[0-9]*$":
+      properties:
+        pos:
+          type: integer
+          description: 1-indexed nucleotide positions
+        nucleotide:
           enum: [A, C, G, T]
-      description: Keys are 1-indexed nucleotide positions, values are one of A, C, T ,G
+          description: The target nucleotide of the SNP
   reference_sequences:
     type: array
     uniqueItems: true

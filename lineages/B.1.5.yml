@@ -2,7 +2,8 @@
 name: B.1.5
 designation_date: "2022-08-08"
 defining_snps:
-  - 70780: T
+  - pos: 70780
+    nucleotide: T
 reference_sequences:
   - source: genbank
     accession: ON959175

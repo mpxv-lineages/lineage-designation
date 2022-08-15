@@ -2,8 +2,10 @@
 name: A
 designation_date: "2022-06-10"
 defining_snps:
-  - 19367: T
-  - 48527: A
+  - pos: 19367
+    nucleotide: T
+  - pos: 48527
+    nucleotide: A
 reference_sequences:
   - source: genbank
     accession: NC_063383
