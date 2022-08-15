@@ -9,6 +9,7 @@
     ],
     "designation_date": "2022-06-10",
     "name": "A.1.1",
+    "parent": "A.1",
     "reference_sequences": [
       {
         "accession": "ON694329",
@@ -27,6 +28,7 @@
     ],
     "designation_date": "2022-06-10",
     "name": "A.1",
+    "parent": "A",
     "reference_sequences": [
       {
         "accession": "MT903342",
@@ -52,6 +54,7 @@
     ],
     "designation_date": "2022-06-10",
     "name": "A.2",
+    "parent": "A",
     "reference_sequences": [
       {
         "accession": "ON674051",
@@ -81,6 +84,7 @@
     ],
     "designation_date": "2022-06-10",
     "name": "A",
+    "parent": "None",
     "reference_sequences": [
       {
         "accession": "NC_063383",
@@ -108,6 +112,7 @@
     ],
     "designation_date": "2022-08-08",
     "name": "B.1.1",
+    "parent": "B.1",
     "reference_sequences": [
       {
         "accession": "ON694329",
@@ -126,6 +131,7 @@
     ],
     "designation_date": "2022-08-08",
     "name": "B.1.2",
+    "parent": "B.1",
     "reference_sequences": [
       {
         "accession": "ON929079",
@@ -144,6 +150,7 @@
     ],
     "designation_date": "2022-08-08",
     "name": "B.1.3",
+    "parent": "B.1",
     "reference_sequences": [
       {
         "accession": "ON983168",
@@ -162,6 +169,7 @@
     ],
     "designation_date": "2022-08-08",
     "name": "B.1.4",
+    "parent": "B.1",
     "reference_sequences": [
       {
         "accession": "ON880511",
@@ -190,6 +198,7 @@
     ],
     "designation_date": "2022-08-08",
     "name": "B.1.5",
+    "parent": "B.1",
     "reference_sequences": [
       {
         "accession": "ON959175",
@@ -208,6 +217,7 @@
     ],
     "designation_date": "2022-06-10",
     "name": "B.1",
+    "parent": "A.1.1",
     "reference_sequences": [
       {
         "accession": "ON563414",
