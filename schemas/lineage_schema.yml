@@ -3,6 +3,7 @@ type: object
 additionalProperties: false
 required:
   - name
+  - unaliased_name
   - designation_date
   - defining_snps
   - reference_sequences
@@ -10,6 +11,9 @@ properties:
   name:
     type: string
     description: The name of the lineage, must match file name
+  unaliased_name:
+    type: string
+    description: The unaliased name of the lineage, must be fully unaliased, i.e. start with A
   alias:
     type: string
     description: The alias of the lineage, must not contain `.`

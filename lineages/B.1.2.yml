@@ -1,5 +1,6 @@
 # yaml-language-server: $schema=../schemas/lineage_schema.yml
 name: B.1.2
+unaliased_name: A.1.1.1.2
 designation_date: "2022-08-08"
 defining_snps:
   - pos: 186165
