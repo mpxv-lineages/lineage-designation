@@ -12,6 +12,7 @@ Currently, we aim to designate a new lineage if
 
  - that has spread internationally
  - contains at least 15 sequences
+ - clear common phylogenetic structure (no uncertainty about possibly being designated as 2 lineages instead of 1)
  - at least one freely available high quality reference sequence
 
 Each new lineage is defined by a `yaml` file according the [schema](schemas/lineage_schema.yml).
