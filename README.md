@@ -34,6 +34,8 @@ reference_sequences:
 
 You can find markdown documents describing the rational of lineage designation (including which lineages and why) in the "designation_records" folder.
 
+ - [2022-08-08: B.1.1-B.1.5](designation_records/B.1.1-B.1.5_2022-08-08.md)
+
 ### Lineage proposals
 To propose additional lineages, open a github issue in this repository.
 
