@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=../schemas/lineage_schema.yml
-name: B.1.1
+name: A.2
 designation_date: 2022-06-10
 defining_snps:
   - 34472: T
