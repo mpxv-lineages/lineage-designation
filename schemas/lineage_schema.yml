@@ -14,7 +14,7 @@ properties:
     description: The alias of the lineage, must not contain `.`
   designation_date:
     type: string
-    description: The date the lineage was designated
+    description: The date the lineage was designated in format "2022-07-30"
   defining_snps:
     type: array
     uniqueItems: true
