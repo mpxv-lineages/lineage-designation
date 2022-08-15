@@ -14,6 +14,8 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: "3.10"
+      - name: Install dependencies
+        run: pip install yaml
       - name: Generate alias_key.json from lineage yamls and validate that unaliased name matches unaliased_name
         run: python scripts/generate-alias-key-json.py
       - uses: stefanzweifel/git-auto-commit-action@v4
