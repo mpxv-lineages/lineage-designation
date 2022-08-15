@@ -1,4 +1,4 @@
-name: Generate and validate aliases from lineage yamls
+name: Autogenerate jsons and validate aliases
 
 on:
   push:
@@ -18,7 +18,9 @@ jobs:
         run: pip install pyyaml
       - name: Generate alias_key.json from lineage yamls and validate that unaliased name matches unaliased_name
         run: python scripts/generate-alias-key-json.py
+      - name: Generate lineages.json
+        run: python scripts/generate-single-file-json.py
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          file_pattern: auto-generated/alias_key.json
-          commit_message: Auto update alias_key.json
+          file_pattern: auto-generated/*
+          commit_message: Update auto-generated files
