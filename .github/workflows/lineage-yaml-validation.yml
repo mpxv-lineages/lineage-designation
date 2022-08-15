@@ -1,4 +1,4 @@
-name: Validate lineage yamls against schema
+name: Validate lineage yamls
 
 on:
   push:
@@ -16,5 +16,7 @@ jobs:
         with:
           node-version: 18
       - run: npm install -g ajv-cli
-      - name: Validate lineage yamls
+      - name: Validate lineage yamls against schema
         run: bash scripts/validate-lineage-yaml.sh
+      - name: Check lineage name in yaml matches file name
+        run: bash scripts/validate-file-and-lineage-name.sh
