@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../schemas/lineage_schema.yml
 name: B.1.2
-designation_date: 2022-08-08
+designation_date: "2022-08-08"
 defining_snps:
   - 186165: A
 reference_sequences:
