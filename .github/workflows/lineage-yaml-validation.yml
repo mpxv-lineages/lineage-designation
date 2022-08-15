@@ -1,0 +1,24 @@
+name: Validate lineage yamls against schema
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup node.js
+        uses: actions/setup-node@v3
+        with:
+          cache: "npm"
+      - run: npm install -g ajv-cli
+      - name: Validate lineage yamls
+        run: |
+          for file in /dir/*
+          do
+            ajv -s schemas/lineage_schema.yml -d $file
+          done
