@@ -10,8 +10,8 @@ New lineages are designated as more cases are sequenced and the outbreak gets mo
 The criteria for lineage designation will evolve as the outbreak continues.
 Currently, we aim to designate a new lineage if
 
- - that has spread internationally
- - contains at least 15 sequences
+ - has spread internationally
+ - contains at least 15 sequences or plausibly represent undersampled diversity
  - clear common phylogenetic structure (no uncertainty about possibly being designated as 2 lineages instead of 1)
  - at least one freely available high quality reference sequence
 
