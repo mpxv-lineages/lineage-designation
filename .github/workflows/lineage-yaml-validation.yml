@@ -17,8 +17,4 @@ jobs:
           node-version: 18
       - run: npm install -g ajv-cli
       - name: Validate lineage yamls
-        run: |
-          for file in /dir/*
-          do
-            ajv -s schemas/lineage_schema.yml -d $file
-          done
+        run: bash scripts/validate-lineage-yaml.sh
