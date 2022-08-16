@@ -1,7 +1,8 @@
 # Monkeypox virus phylogenetic lineage designation
 
-This repository has information, updates, and details about monkeypox virus lineage designations.
-These lineages are meant to help assist genomic epidemiology of monkeypox in humans and provide a fine-grained systematic nomenclature to refer to different circulating lineages.
+This repository contains updates and details about monkeypox virus lineage designations.
+These lineages are meant to assist genomic epidemiology of monkeypox in humans and provide a fine-grained systematic nomenclature to refer to different circulating lineages.
+The do not imply any phenotypic differences.
 These lineage only apply to recent human cases and are distinct from broader clades of monkeypox viruses circulating in the animal reservoir I, IIa, and IIb, see [Happi et al](https://virological.org/t/urgent-need-for-a-non-discriminatory-and-non-stigmatizing-nomenclature-for-monkeypox-virus/853) and the recent [announcement by the WHO](https://worldhealthorganization.cmail20.com/t/ViewEmail/d/422BD62D623B6A3D2540EF23F30FEDED/F75AF81C90108C72B4B1B1F623478121?alternativeLink=False)).
 The recent outbreak among humans originated from clade IIb.
 
