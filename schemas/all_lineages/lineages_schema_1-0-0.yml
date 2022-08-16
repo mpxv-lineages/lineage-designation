@@ -21,4 +21,4 @@ properties:
     uniqueItems: true
     description: List of designated lineages
     items:
-      $ref: https://json-schema.org/draft/2020-12/schema
+      $ref: https://raw.githubusercontent.com/mpxv-lineages/lineage-designation/master/schemas/single_lineage/lineage_schema_1-0-0.yml

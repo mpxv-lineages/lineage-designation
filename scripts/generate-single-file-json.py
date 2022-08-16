@@ -8,7 +8,7 @@ import datetime
 VERSION = ("1", "0", "0")
 
 result = {
-    "$schema": f"https://raw.githubusercontent.com/mpxv-lineages/lineage-designation/schemas/all_lineages/lineage_schema_{'-'.join(VERSION)}.yml#",
+    "$schema": f"https://raw.githubusercontent.com/mpxv-lineages/lineage-designation/master/schemas/all_lineages/lineages_schema-{'-'.join(VERSION)}.yml#",
     "schemaVersion": ".".join(VERSION),
     "timestamp": datetime.datetime.utcnow().isoformat(timespec="seconds"),
 }
