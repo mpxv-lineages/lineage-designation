@@ -18,6 +18,7 @@ for yaml_file in glob.glob('lineages/*.yml'):
 
 # Write to json file
 with open('auto-generated/alias_key.json', 'w') as outfile:
+    aliases["A"] = "" # Empty string for consistency with pango-designation
     json.dump(aliases, outfile, sort_keys=True, indent=2)
 
 # %%

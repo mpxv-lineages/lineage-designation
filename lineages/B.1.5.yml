@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../schemas/lineage_schema.yml
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
 name: B.1.5
 unaliased_name: A.1.1.1.5
 parent: B.1
