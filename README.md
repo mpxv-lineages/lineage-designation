@@ -19,7 +19,7 @@ Currently, we aim to designate a new lineage if
 Each new lineage is defined by a `yaml` file according the [schema](schemas/lineage_schema.yml).
 For lineage [B.1](lineages/B.1.yml), for example, this looks like this
 ```
-# yaml-language-server: $schema=../schemas/lineage_schema.yml
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
 name: B.1
 unaliased_name: A.1.1.1
 parent: A.1.1
