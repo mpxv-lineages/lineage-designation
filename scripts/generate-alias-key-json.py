@@ -20,6 +20,7 @@ for yaml_file in glob.glob('lineages/*.yml'):
 with open('auto-generated/alias_key.json', 'w') as outfile:
     aliases["A"] = "" # Empty string for consistency with pango-designation
     json.dump(aliases, outfile, sort_keys=True, indent=2)
+    aliases["A"] = "A" # Restore back for rest of script
 
 # %%
 # Validate unaliased names
