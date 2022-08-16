@@ -12,8 +12,8 @@
     "parent": "A.1",
     "reference_sequences": [
       {
-        "accession": "ON694329",
-        "isolate": "MPXV/Germany/2022/RKI025",
+        "accession": "ON676708",
+        "isolate": "MPXV_USA_2021_MD",
         "source": "genbank"
       }
     ],
