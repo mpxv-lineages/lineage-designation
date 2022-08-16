@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: B.1.2
+unaliased_name: A.1.1.1.2
+parent: B.1
+designation_date: "2022-08-08"
+defining_snps:
+  - pos: 186165
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: ON929079
+    isolate: MPXV/Germany/2022/RKI124

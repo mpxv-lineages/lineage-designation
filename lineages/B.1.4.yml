@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: B.1.4
+unaliased_name: A.1.1.1.4
+parent: B.1
+designation_date: "2022-08-08"
+defining_snps:
+  - pos: 34308
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: ON880511
+    isolate: MpxV/human/CAN/UN-NML-3214/2022
+  - source: genbank
+    accession: ON880519
+    isolate: MpxV/human/CAN/UN-NML-2833/2022
+  - source: genbank
+    accession: ON983163
+    isolate: MpxV/human/CAN/UN-NML-3532/2022

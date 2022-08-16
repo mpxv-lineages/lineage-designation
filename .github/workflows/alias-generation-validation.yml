@@ -1,0 +1,27 @@
+name: Autogenerate jsons and validate aliases
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install dependencies
+        run: pip install pyyaml
+      - name: Generate alias_key.json from lineage yamls and validate that unaliased name matches unaliased_name
+        run: python scripts/generate-alias-key-json.py
+      - name: Generate lineages.json
+        run: python scripts/generate-single-file-json.py
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: auto-generated/*
+          commit_message: Update auto-generated files

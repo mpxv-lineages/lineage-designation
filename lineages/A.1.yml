@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: A.1
+unaliased_name: A.1
+parent: A
+designation_date: "2022-06-10"
+defining_snps:
+  - pos: 83326
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: MT903342
+  - source: genbank
+    accession: MT903343
+  - source: genbank
+    accession: MT903345

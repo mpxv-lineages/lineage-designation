@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+type: object
+additionalProperties: false
+required:
+  - $schema
+  - schemaVersion
+  - timestamp
+  - lineages
+properties:
+  $schema:
+    type: string
+    description: Link to JSON schema of the file
+  schemaVersion:
+    type: string
+    description: Schema version of the file
+  timestamp:
+    type: string
+    description: Timestamp of file's creation
+  lineages:
+    type: array
+    uniqueItems: true
+    description: List of designated lineages
+    items:
+      $ref: https://json-schema.org/draft/2020-12/schema

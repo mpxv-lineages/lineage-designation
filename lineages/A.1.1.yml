@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: A.1.1
+unaliased_name: A.1.1
+parent: A.1
+alias: B
+designation_date: "2022-06-10"
+defining_snps:
+  - pos: 34459
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: ON676708
+    isolate: MPXV_USA_2021_MD
