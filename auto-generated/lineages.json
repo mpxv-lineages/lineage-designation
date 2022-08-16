@@ -1,230 +1,235 @@
-[
-  {
-    "alias": "B",
-    "defining_snps": [
-      {
-        "nucleotide": "A",
-        "pos": 34459
-      }
-    ],
-    "designation_date": "2022-06-10",
-    "name": "A.1.1",
-    "parent": "A.1",
-    "reference_sequences": [
-      {
-        "accession": "ON676708",
-        "isolate": "MPXV_USA_2021_MD",
-        "source": "genbank"
-      }
-    ],
-    "unaliased_name": "A.1.1"
-  },
-  {
-    "defining_snps": [
-      {
-        "nucleotide": "T",
-        "pos": 83326
-      }
-    ],
-    "designation_date": "2022-06-10",
-    "name": "A.1",
-    "parent": "A",
-    "reference_sequences": [
-      {
-        "accession": "MT903342",
-        "source": "genbank"
-      },
-      {
-        "accession": "MT903343",
-        "source": "genbank"
-      },
-      {
-        "accession": "MT903345",
-        "source": "genbank"
-      }
-    ],
-    "unaliased_name": "A.1"
-  },
-  {
-    "defining_snps": [
-      {
-        "nucleotide": "T",
-        "pos": 34472
-      }
-    ],
-    "designation_date": "2022-06-10",
-    "name": "A.2",
-    "parent": "A",
-    "reference_sequences": [
-      {
-        "accession": "ON674051",
-        "source": "genbank"
-      },
-      {
-        "accession": "ON676707",
-        "source": "genbank"
-      },
-      {
-        "accession": "ON675438",
-        "source": "genbank"
-      }
-    ],
-    "unaliased_name": "A.2"
-  },
-  {
-    "defining_snps": [
-      {
-        "nucleotide": "T",
-        "pos": 19367
-      },
-      {
-        "nucleotide": "A",
-        "pos": 48527
-      }
-    ],
-    "designation_date": "2022-06-10",
-    "name": "A",
-    "parent": "None",
-    "reference_sequences": [
-      {
-        "accession": "NC_063383",
-        "isolate": "MPXV-M5312_HM12_Rivers",
-        "source": "genbank"
-      },
-      {
-        "accession": "MT903337",
-        "isolate": "MPXV-M2940_FCT",
-        "source": "genbank"
-      },
-      {
-        "accession": "MK783031",
-        "source": "genbank"
-      }
-    ],
-    "unaliased_name": "A"
-  },
-  {
-    "defining_snps": [
-      {
-        "nucleotide": "A",
-        "pos": 74360
-      }
-    ],
-    "designation_date": "2022-08-08",
-    "name": "B.1.1",
-    "parent": "B.1",
-    "reference_sequences": [
-      {
-        "accession": "ON694329",
-        "isolate": "MPXV/Germany/2022/RKI025",
-        "source": "genbank"
-      }
-    ],
-    "unaliased_name": "A.1.1.1.1"
-  },
-  {
-    "defining_snps": [
-      {
-        "nucleotide": "A",
-        "pos": 186165
-      }
-    ],
-    "designation_date": "2022-08-08",
-    "name": "B.1.2",
-    "parent": "B.1",
-    "reference_sequences": [
-      {
-        "accession": "ON929079",
-        "isolate": "MPXV/Germany/2022/RKI124",
-        "source": "genbank"
-      }
-    ],
-    "unaliased_name": "A.1.1.1.2"
-  },
-  {
-    "defining_snps": [
-      {
-        "nucleotide": "A",
-        "pos": 190660
-      }
-    ],
-    "designation_date": "2022-08-08",
-    "name": "B.1.3",
-    "parent": "B.1",
-    "reference_sequences": [
-      {
-        "accession": "ON983168",
-        "isolate": "MPxV/Prague_001/2022/flye_medaka",
-        "source": "genbank"
-      }
-    ],
-    "unaliased_name": "A.1.1.1.3"
-  },
-  {
-    "defining_snps": [
-      {
-        "nucleotide": "A",
-        "pos": 34308
-      }
-    ],
-    "designation_date": "2022-08-08",
-    "name": "B.1.4",
-    "parent": "B.1",
-    "reference_sequences": [
-      {
-        "accession": "ON880511",
-        "isolate": "MpxV/human/CAN/UN-NML-3214/2022",
-        "source": "genbank"
-      },
-      {
-        "accession": "ON880519",
-        "isolate": "MpxV/human/CAN/UN-NML-2833/2022",
-        "source": "genbank"
-      },
-      {
-        "accession": "ON983163",
-        "isolate": "MpxV/human/CAN/UN-NML-3532/2022",
-        "source": "genbank"
-      }
-    ],
-    "unaliased_name": "A.1.1.1.4"
-  },
-  {
-    "defining_snps": [
-      {
-        "nucleotide": "T",
-        "pos": 70780
-      }
-    ],
-    "designation_date": "2022-08-08",
-    "name": "B.1.5",
-    "parent": "B.1",
-    "reference_sequences": [
-      {
-        "accession": "ON959175",
-        "isolate": "MPXV/Germany/2022/RKI162",
-        "source": "genbank"
-      }
-    ],
-    "unaliased_name": "A.1.1.1.5"
-  },
-  {
-    "defining_snps": [
-      {
-        "nucleotide": "A",
-        "pos": 77383
-      }
-    ],
-    "designation_date": "2022-06-10",
-    "name": "B.1",
-    "parent": "A.1.1",
-    "reference_sequences": [
-      {
-        "accession": "ON563414",
-        "isolate": "MPXV_USA_2022_MA001",
-        "source": "genbank"
-      }
-    ],
-    "unaliased_name": "A.1.1.1"
-  }
-]
+{
+  "$schema": "https://raw.githubusercontent.com/mpxv-lineages/lineage-designation/schemas/all_lineages/lineage_schema_1-0-0.yml#",
+  "lineages": [
+    {
+      "alias": "B",
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 34459
+        }
+      ],
+      "designation_date": "2022-06-10",
+      "name": "A.1.1",
+      "parent": "A.1",
+      "reference_sequences": [
+        {
+          "accession": "ON676708",
+          "isolate": "MPXV_USA_2021_MD",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
+          "pos": 83326
+        }
+      ],
+      "designation_date": "2022-06-10",
+      "name": "A.1",
+      "parent": "A",
+      "reference_sequences": [
+        {
+          "accession": "MT903342",
+          "source": "genbank"
+        },
+        {
+          "accession": "MT903343",
+          "source": "genbank"
+        },
+        {
+          "accession": "MT903345",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
+          "pos": 34472
+        }
+      ],
+      "designation_date": "2022-06-10",
+      "name": "A.2",
+      "parent": "A",
+      "reference_sequences": [
+        {
+          "accession": "ON674051",
+          "source": "genbank"
+        },
+        {
+          "accession": "ON676707",
+          "source": "genbank"
+        },
+        {
+          "accession": "ON675438",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.2"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
+          "pos": 19367
+        },
+        {
+          "nucleotide": "A",
+          "pos": 48527
+        }
+      ],
+      "designation_date": "2022-06-10",
+      "name": "A",
+      "parent": "None",
+      "reference_sequences": [
+        {
+          "accession": "NC_063383",
+          "isolate": "MPXV-M5312_HM12_Rivers",
+          "source": "genbank"
+        },
+        {
+          "accession": "MT903337",
+          "isolate": "MPXV-M2940_FCT",
+          "source": "genbank"
+        },
+        {
+          "accession": "MK783031",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 74360
+        }
+      ],
+      "designation_date": "2022-08-08",
+      "name": "B.1.1",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "ON694329",
+          "isolate": "MPXV/Germany/2022/RKI025",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.1"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 186165
+        }
+      ],
+      "designation_date": "2022-08-08",
+      "name": "B.1.2",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "ON929079",
+          "isolate": "MPXV/Germany/2022/RKI124",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.2"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 190660
+        }
+      ],
+      "designation_date": "2022-08-08",
+      "name": "B.1.3",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "ON983168",
+          "isolate": "MPxV/Prague_001/2022/flye_medaka",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.3"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 34308
+        }
+      ],
+      "designation_date": "2022-08-08",
+      "name": "B.1.4",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "ON880511",
+          "isolate": "MpxV/human/CAN/UN-NML-3214/2022",
+          "source": "genbank"
+        },
+        {
+          "accession": "ON880519",
+          "isolate": "MpxV/human/CAN/UN-NML-2833/2022",
+          "source": "genbank"
+        },
+        {
+          "accession": "ON983163",
+          "isolate": "MpxV/human/CAN/UN-NML-3532/2022",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.4"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
+          "pos": 70780
+        }
+      ],
+      "designation_date": "2022-08-08",
+      "name": "B.1.5",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "ON959175",
+          "isolate": "MPXV/Germany/2022/RKI162",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.5"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 77383
+        }
+      ],
+      "designation_date": "2022-06-10",
+      "name": "B.1",
+      "parent": "A.1.1",
+      "reference_sequences": [
+        {
+          "accession": "ON563414",
+          "isolate": "MPXV_USA_2022_MA001",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "timestamp": "2022-08-16T17:16:53"
+}
