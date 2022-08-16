@@ -9,5 +9,5 @@ defining_snps:
     nucleotide: A
 reference_sequences:
   - source: genbank
-    accession: ON694329
-    isolate: MPXV/Germany/2022/RKI025
+    accession: ON676708
+    isolate: MPXV_USA_2021_MD
