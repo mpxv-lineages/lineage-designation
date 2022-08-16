@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/mpxv-lineages/lineage-designation/schemas/all_lineages/lineage_schema_1-0-0.yml#",
+  "$schema": "https://raw.githubusercontent.com/mpxv-lineages/lineage-designation/master/schemas/all_lineages/lineages_schema-1-0-0.yml#",
   "lineages": [
     {
       "alias": "B",
@@ -231,5 +231,5 @@
     }
   ],
   "schemaVersion": "1.0.0",
-  "timestamp": "2022-08-16T19:58:42"
+  "timestamp": "2022-08-16T20:06:38"
 }
