@@ -12,6 +12,7 @@ The criteria for lineage designation will evolve as the outbreak continues.
 Currently, we aim to designate a new lineage if it
 
  - has spread internationally
+ - has at least 1 mutation above its parent
  - contains at least 15 sequences or plausibly represents undersampled diversity
  - has a clear common phylogenetic structure (no uncertainty about possibly being designated as 2 lineages instead of 1)
  - has at least one freely available high quality reference sequence
@@ -32,6 +33,8 @@ reference_sequences:
     accession: ON563414
     isolate: MPXV_USA_2022_MA001
 ```
+
+An automatically generated `json` file which merges these `yaml` designations can be found [here](auto-generated/lineages.json), and a file with a key of the alias names can be found [here](auto-generated/alias_key.json). 
 
 You can find markdown documents describing the rationale of lineage designation (including which lineages and why) in the "designation_records" folder.
 
