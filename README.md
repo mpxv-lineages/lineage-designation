@@ -16,7 +16,7 @@ Currently, we aim to designate a new lineage if it
  - has a clear common phylogenetic structure (no uncertainty about possibly being designated as 2 lineages instead of 1)
  - has at least one freely available high quality reference sequence
 
-Each new lineage is defined by a `yaml` file according the [schema](schemas/lineage_schema.yml).
+Each new lineage is defined by a `yaml` file according the [schema](schemas/single_lineage/lineage_schema_1-0-0.yml).
 For lineage [B.1](lineages/B.1.yml), for example, this looks like this
 ```
 # yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
