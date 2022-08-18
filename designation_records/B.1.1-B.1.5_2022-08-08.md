@@ -15,7 +15,7 @@ Each of the existing clades/lineages and the new lineages are defined by a `yaml
 - Basality (if no single basal sequence is available, multiple are chosen so the MRCA is basal)
 - Good quality (not showing unusually large numbers of frame shifts and/or stop codons)
 
-The `yaml` files can be found in the 'lineages' folder of this respository and follow a defined [schema](schemas/single_lineage/lineage_schema_1-0-0.yml). 
+The `yaml` files can be found in the 'lineages' folder of this respository and follow a defined [schema](../schemas/single_lineage/lineage_schema_1-0-0.yml). 
 
 It should be especially noted that the designation of a lineage does not imply any biological or phenotypic difference; indeed, some lineages are designated based only on synonymous mutations. Additionally, lineages can only be designated based upon the information available, which likely does not equitably represent the true geographical spread of monkeypox cases, and may also not fully reflect the genetic diversity of the virus. Currently, the proportion of sequenced cases, and their availability on INSDC databases, differs greatly between countries. Thus, lineages may be disproportionately associated with countries that sequence the most, such as Germany and Canada, and may not fully reflect the true geographic distribution of genetically similar cases. **Lineages and the sequences they contain should not be used alone to draw epidemiological conclusions.**
 
