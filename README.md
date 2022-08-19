@@ -6,6 +6,8 @@ They do not imply any phenotypic differences.
 These lineages only apply to recent human cases and are distinct from broader clades of monkeypox viruses circulating in the animal reservoir I, IIa, and IIb, see [Happi et al](https://virological.org/t/urgent-need-for-a-non-discriminatory-and-non-stigmatizing-nomenclature-for-monkeypox-virus/853) and the recent [announcement by the WHO](https://worldhealthorganization.cmail20.com/t/ViewEmail/d/422BD62D623B6A3D2540EF23F30FEDED/F75AF81C90108C72B4B1B1F623478121?alternativeLink=False)).
 The recent outbreak among humans originated from clade IIb.
 
+## [Lineage summary](auto-generated/lineages.md)
+
 ## Designation of lineages
 New lineages are designated as more cases are sequenced and the outbreak gets more diverse.
 The criteria for lineage designation will evolve as the outbreak continues.
@@ -34,7 +36,8 @@ reference_sequences:
     isolate: MPXV_USA_2022_MA001
 ```
 
-An automatically generated `json` file which merges these `yaml` designations can be found [here](auto-generated/lineages.json), and a file with a key of the alias names can be found [here](auto-generated/alias_key.json). 
+An automatically generated `json` file which merges these `yaml` designations can be found [here](auto-generated/lineages.json), and a file with a key of the alias names can be found [here](auto-generated/alias_key.json).
+A human readable summary of all designated lineages can be found [here](auto-generated/lineages.md) .
 
 You can find markdown documents describing the rationale of lineage designation (including which lineages and why) in the "designation_records" folder.
 
