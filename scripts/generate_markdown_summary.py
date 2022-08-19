@@ -8,7 +8,7 @@ import datetime
 def generate_lineage_md(lineage):
     lines = []
     lines.append(f"## {lineage['name']}")
-    lines.append(f" * parent: [{lineage['parent']}]({lineage['parent']})")
+    lines.append(f" * parent: [{lineage['parent']}](#{lineage['parent']})")
     snp_str = ','.join(f"{x['pos']}{x['nucleotide']}" for x in lineage['defining_snps'])
     lines.append(f" * defining SNPs: {snp_str}")
     ref_seqs = [f"[{x.get('isolate', x['accession'])}](https://www.ncbi.nlm.nih.gov/nuccore/{x['accession']})" for x in lineage['reference_sequences'] if x['source']=='genbank']
