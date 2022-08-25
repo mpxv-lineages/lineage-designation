@@ -214,6 +214,67 @@
       "defining_snps": [
         {
           "nucleotide": "A",
+          "pos": 111029
+        }
+      ],
+      "designation_date": "2022-08-25",
+      "name": "B.1.6",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OP289782",
+          "isolate": "LIM-INS-001",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.6"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
+          "pos": 25644
+        }
+      ],
+      "designation_date": "2022-08-25",
+      "name": "B.1.7",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OP205081",
+          "isolate": "MPXV_UK_2022_9000078",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.7"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 5595
+        },
+        {
+          "nucleotide": "T",
+          "pos": 191615
+        }
+      ],
+      "designation_date": "2022-08-25",
+      "name": "B.1.8",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OP215224",
+          "isolate": "MPXV/Germany/2022/RKI235",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.8"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
           "pos": 77383
         }
       ],
@@ -231,5 +292,5 @@
     }
   ],
   "schemaVersion": "1.0.0",
-  "timestamp": "2022-08-19T09:44:15"
+  "timestamp": "2022-08-25T16:01:14"
 }
