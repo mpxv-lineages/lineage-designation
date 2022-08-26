@@ -61,3 +61,18 @@
  * defining SNPs: 70780T
  * reference sequence: [MPXV/Germany/2022/RKI162](https://www.ncbi.nlm.nih.gov/nuccore/ON959175)
 
+## B.1.6
+ * parent: [B.1](#B1)
+ * defining SNPs: 111029A
+ * reference sequence: [LIM-INS-001](https://www.ncbi.nlm.nih.gov/nuccore/OP289782)
+
+## B.1.7
+ * parent: [B.1](#B1)
+ * defining SNPs: 25644T
+ * reference sequence: [MPXV_UK_2022_9000078](https://www.ncbi.nlm.nih.gov/nuccore/OP205081)
+
+## B.1.8
+ * parent: [B.1](#B1)
+ * defining SNPs: 5595A,191615T
+ * reference sequence: [MPXV/Germany/2022/RKI235](https://www.ncbi.nlm.nih.gov/nuccore/OP215224)
+
