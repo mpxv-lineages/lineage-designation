@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: B.1.8
+unaliased_name: A.1.1.1.8
+parent: B.1
+designation_date: "2022-08-25"
+defining_snps:
+  - pos: 5595
+    nucleotide: A
+  - pos: 191615 # Corresponding mutation in ITR
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: OP215224
+    isolate: MPXV/Germany/2022/RKI235
