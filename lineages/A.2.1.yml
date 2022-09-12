@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: A.2.1
+unaliased_name: A.2.1
+parent: A.2
+designation_date: "2022-09-12"
+defining_snps:
+  - pos: 25072
+    nucleotide: T
+  - pos: 140492
+    nucleotide: C
+  - pos: 179537
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: OP331335
+    isolate: MPXV_UK_2022_9000155
+  - source: genbank
+    accession: ON674051
+    isolate: MPXV_USA_2022_FL001
