@@ -9,6 +9,8 @@
 - [ ] Draft nextstrain/monkeypox PR with:
   - [ ] new lineages added to clade.tsv
   - [ ] new lineages added to color_ordering.tsv
-- [ ] Prepare Nextclade dataset
+- [ ] Release new Nextclade dataset
+  - [ ] Prepare new Nextclade dataset
+  - [ ] Push to master
 - [ ] Merge PRs
 - [ ] Announce on Twitter
