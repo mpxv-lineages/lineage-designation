@@ -1,15 +1,15 @@
 # Designation of one B.1 sublineage and one A.2 sublineage
 
-Continued sequencing and sharing of monkeypox genomes has further expanded the diversity of the B.1 ('outbreak') clade, leading to the designation of **one further B.1 lineage: B.1.9**. Additionally, additional sequencing of samples from outside the 'outbreak' clade has led to the designation of **one further A.2 lineage: A.2.1**.
+Continued sequencing and sharing of monkeypox genomes has further expanded the diversity of the B.1 ('outbreak') clade, leading to the designation of **one further B.1 lineage: B.1.9**. Additional sequencing of samples from outside the 'outbreak' clade has led to the designation of **one further A.2 lineage: A.2.1**.
 
-The criteria used to designate this lineages is the same as previously, and is based on genomes available in INSDC databases and:
+The criteria used to designate these lineages are the same as previously, and are based on genomes available in INSDC databases and:
 
 - International spread
 - Having at least 1 mutation above the B.1 polytomy
 - Containing at least 15 sequences or plausibly represents undersampled diversity
 - Clear common phylogenetic structure (no uncertainty about possibly being designated as 2 lineages instead of 1)
 
-Despite only having a small number of samples at date of designation, sequences that are part of the newly designated A.2.1 lineage are not part of the B.1 ('outbreak') clade and thus are likely undersampled. Thus, designation seems to be in the public health interest.
+Despite only having a small number of samples at date of designation, sequences that are part of the newly designated A.2.1 lineage are not part of the B.1 ('outbreak') clade and thus are likely undersampled. Hence, designation seems to be in the public health interest.
 
 #### B.1.9
 
