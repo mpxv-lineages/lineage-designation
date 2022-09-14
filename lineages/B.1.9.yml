@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: B.1.9
+unaliased_name: A.1.1.1.9
+parent: B.1
+designation_date: "2022-09-12"
+defining_snps:
+  - pos: 181367
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: ON843175
+    isolate: Monkeypox/PT0043/2022
