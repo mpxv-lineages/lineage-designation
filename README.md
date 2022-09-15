@@ -42,6 +42,8 @@ A human readable summary of all designated lineages can be found [here](auto-gen
 You can find markdown documents describing the rationale of lineage designation (including which lineages and why) in the "designation_records" folder.
 
  - [2022-08-08: B.1.1-B.1.5](designation_records/B.1.1-B.1.5_2022-08-08.md)
+ - [2022-08-25: B.1.6-B.1.8](designation_records/B.1.6-B.1.8_2022-08-25.md)
+ - [2022-09-13: B.1.9-A.2.1](designation_records/B.1.9-A.2.1_2022-09-13.md)
 
 ### Lineage proposals
 To propose additional lineages, open a github issue in this repository.
