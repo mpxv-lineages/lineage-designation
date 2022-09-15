@@ -8,6 +8,7 @@ The criteria used to designate these lineages are the same as previously, and ar
 - Having at least 1 mutation above the B.1 polytomy
 - Containing at least 15 sequences or plausibly represents undersampled diversity
 - Clear common phylogenetic structure (no uncertainty about possibly being designated as 2 lineages instead of 1)
+- Has at least one freely available high quality reference sequence
 
 Despite only having a small number of samples at date of designation, sequences that are part of the newly designated A.2.1 lineage are not part of the B.1 ('outbreak') clade and thus are likely undersampled. Hence, designation seems to be in the public health interest.
 
