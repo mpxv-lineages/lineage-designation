@@ -51,6 +51,38 @@
       "defining_snps": [
         {
           "nucleotide": "T",
+          "pos": 25072
+        },
+        {
+          "nucleotide": "C",
+          "pos": 140492
+        },
+        {
+          "nucleotide": "T",
+          "pos": 179537
+        }
+      ],
+      "designation_date": "2022-09-12",
+      "name": "A.2.1",
+      "parent": "A.2",
+      "reference_sequences": [
+        {
+          "accession": "OP331335",
+          "isolate": "MPXV_UK_2022_9000155",
+          "source": "genbank"
+        },
+        {
+          "accession": "ON674051",
+          "isolate": "MPXV_USA_2022_FL001",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.2.1"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
           "pos": 34472
         }
       ],
@@ -275,6 +307,25 @@
       "defining_snps": [
         {
           "nucleotide": "A",
+          "pos": 181367
+        }
+      ],
+      "designation_date": "2022-09-12",
+      "name": "B.1.9",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "ON843175",
+          "isolate": "Monkeypox/PT0043/2022",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.9"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
           "pos": 77383
         }
       ],
@@ -292,5 +343,5 @@
     }
   ],
   "schemaVersion": "1.0.0",
-  "timestamp": "2022-09-13T21:34:32"
+  "timestamp": "2022-09-16T09:19:26"
 }

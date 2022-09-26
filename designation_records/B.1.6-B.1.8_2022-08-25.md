@@ -8,6 +8,7 @@ The criteria used to designate these lineages is the same as previously, and is 
 - Having at least 1 mutation above the B.1 polytomy
 - Containing at least 15 sequences or plausibly represents undersampled diversity
 - Clear common phylogenetic structure (no uncertainty about possibly being designated as 2 lineages instead of 1)
+- Has at least one freely available high quality reference sequence
 
 Notably, lineage B.1.6 has not been detected outside of Peru. However, it has a unique mutation that is not seen elsewhere, and seems to be highly dominant in Peru. Thus, designation seems to be in the public health interest.
 

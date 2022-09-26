@@ -17,7 +17,7 @@ Currently, we aim to designate a new lineage if it
  - has at least 1 mutation above its parent
  - contains at least 15 sequences or plausibly represents undersampled diversity
  - has a clear common phylogenetic structure (no uncertainty about possibly being designated as 2 lineages instead of 1)
- - has at least one freely available high quality reference sequence
+ - has at least one freely available high quality reference sequence (high quality meaning that it doesn't show unusually large numbers of frame shifts and/or stop codons)
 
 Each new lineage is defined by a `yaml` file according the [schema](schemas/single_lineage/lineage_schema_1-0-0.yml).
 For lineage [B.1](lineages/B.1.yml), for example, this looks like this
@@ -42,6 +42,8 @@ A human readable summary of all designated lineages can be found [here](auto-gen
 You can find markdown documents describing the rationale of lineage designation (including which lineages and why) in the "designation_records" folder.
 
  - [2022-08-08: B.1.1-B.1.5](designation_records/B.1.1-B.1.5_2022-08-08.md)
+ - [2022-08-25: B.1.6-B.1.8](designation_records/B.1.6-B.1.8_2022-08-25.md)
+ - [2022-09-13: B.1.9-A.2.1](designation_records/B.1.9-A.2.1_2022-09-13.md)
 
 ### Lineage proposals
 To propose additional lineages, open a github issue in this repository.
