@@ -82,6 +82,38 @@
     {
       "defining_snps": [
         {
+          "nucleotide": "A",
+          "pos": 21991
+        },
+        {
+          "nucleotide": "T",
+          "pos": 103019
+        },
+        {
+          "nucleotide": "A",
+          "pos": 158424
+        }
+      ],
+      "designation_date": "2022-09-26",
+      "name": "A.2.2",
+      "parent": "A.2",
+      "reference_sequences": [
+        {
+          "accession": "OP450997",
+          "isolate": "MPXV_USA_2022_PA0016",
+          "source": "genbank"
+        },
+        {
+          "accession": "OP331336",
+          "isolate": "MPXV_UK_2022_9000166",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.2.2"
+    },
+    {
+      "defining_snps": [
+        {
           "nucleotide": "T",
           "pos": 34472
         }
@@ -155,6 +187,84 @@
         }
       ],
       "unaliased_name": "A.1.1.1.1"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
+          "pos": 89906
+        },
+        {
+          "nucleotide": "A",
+          "pos": 94798
+        }
+      ],
+      "designation_date": "2022-09-26",
+      "name": "B.1.10",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OP205110",
+          "isolate": "MPXV_UK_2022_9000147",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.10"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
+          "pos": 18133
+        },
+        {
+          "nucleotide": "A",
+          "pos": 67611
+        },
+        {
+          "nucleotide": "A",
+          "pos": 130231
+        },
+        {
+          "nucleotide": "A",
+          "pos": 159277
+        }
+      ],
+      "designation_date": "2022-09-26",
+      "name": "B.1.11",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OP169336",
+          "isolate": "MpxV/human/USA/WA-UW-070499/2022",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.11"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
+          "pos": 182950
+        }
+      ],
+      "designation_date": "2022-09-26",
+      "name": "B.1.12",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "ON880548",
+          "isolate": "MpxV/human/CAN/UN-NML-3448/2022",
+          "source": "genbank"
+        },
+        {
+          "accession": "OP415207",
+          "isolate": "MPX_BhVKjm_9000233",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.12"
     },
     {
       "defining_snps": [
@@ -343,5 +453,5 @@
     }
   ],
   "schemaVersion": "1.0.0",
-  "timestamp": "2022-09-26T11:09:16"
+  "timestamp": "2022-09-28T19:35:07"
 }
