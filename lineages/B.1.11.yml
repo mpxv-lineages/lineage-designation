@@ -6,10 +6,6 @@ designation_date: "2022-09-26"
 defining_snps:
   - pos: 18133
     nucleotide: T
-  - pos: 67611
-    nucleotide: A
-  - pos: 130231
-    nucleotide: A
   - pos: 159277
     nucleotide: A
 reference_sequences:
