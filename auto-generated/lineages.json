@@ -219,14 +219,6 @@
         },
         {
           "nucleotide": "A",
-          "pos": 67611
-        },
-        {
-          "nucleotide": "A",
-          "pos": 130231
-        },
-        {
-          "nucleotide": "A",
           "pos": 159277
         }
       ],
@@ -453,5 +445,5 @@
     }
   ],
   "schemaVersion": "1.0.0",
-  "timestamp": "2022-09-28T19:36:33"
+  "timestamp": "2022-10-31T19:37:28"
 }
