@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: B.1.13
+unaliased_name: A.1.1.1.13
+parent: B.1
+designation_date: "2022-10-31"
+defining_snps:
+  - pos: 175093
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: OP536663
+    isolate: MPXV-USA-IL-IDPH-002
+  - source: genbank
+    accession: OP257254
+    isolate: MpxV/human/USA/OH-UW-073812/2022

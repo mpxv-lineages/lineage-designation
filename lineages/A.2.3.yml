@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: A.2.3
+unaliased_name: A.2.3
+parent: A.2
+designation_date: "2022-10-31"
+defining_snps:
+  - pos: 57284
+    nucleotide: T
+  - pos: 74226
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: ON676707
+    isolate: MPXV_USA_2021_TX
+  - source: genbank
+    accession: OP555515
+    isolate: Monkeypox/PT0428/2022

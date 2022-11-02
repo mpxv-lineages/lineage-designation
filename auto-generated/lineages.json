@@ -115,6 +115,34 @@
       "defining_snps": [
         {
           "nucleotide": "T",
+          "pos": 57284
+        },
+        {
+          "nucleotide": "T",
+          "pos": 74226
+        }
+      ],
+      "designation_date": "2022-10-31",
+      "name": "A.2.3",
+      "parent": "A.2",
+      "reference_sequences": [
+        {
+          "accession": "ON676707",
+          "isolate": "MPXV_USA_2021_TX",
+          "source": "genbank"
+        },
+        {
+          "accession": "OP555515",
+          "isolate": "Monkeypox/PT0428/2022",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.2.3"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
           "pos": 34472
         }
       ],
@@ -136,6 +164,33 @@
         }
       ],
       "unaliased_name": "A.2"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 96841
+        },
+        {
+          "nucleotide": "T",
+          "pos": 100971
+        }
+      ],
+      "designation_date": "2022-10-31",
+      "name": "A.3",
+      "parent": "A",
+      "reference_sequences": [
+        {
+          "accession": "MG693723",
+          "isolate": "MPXV_Nig_2017_297957",
+          "source": "genbank"
+        },
+        {
+          "accession": "MK783033",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.3"
     },
     {
       "defining_snps": [
@@ -257,6 +312,53 @@
         }
       ],
       "unaliased_name": "A.1.1.1.12"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 175093
+        }
+      ],
+      "designation_date": "2022-10-31",
+      "name": "B.1.13",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OP536663",
+          "isolate": "MPXV-USA-IL-IDPH-002",
+          "source": "genbank"
+        },
+        {
+          "accession": "OP257254",
+          "isolate": "MpxV/human/USA/OH-UW-073812/2022",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.13"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 36617
+        },
+        {
+          "nucleotide": "T",
+          "pos": 159779
+        }
+      ],
+      "designation_date": "2022-10-31",
+      "name": "B.1.14",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "ON694342",
+          "isolate": "MPXV/Germany/2022/RKI011",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.14"
     },
     {
       "defining_snps": [
@@ -445,5 +547,5 @@
     }
   ],
   "schemaVersion": "1.0.0",
-  "timestamp": "2022-10-31T19:37:28"
+  "timestamp": "2022-10-31T23:28:42"
 }
