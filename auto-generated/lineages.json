@@ -364,6 +364,84 @@
       "defining_snps": [
         {
           "nucleotide": "A",
+          "pos": 149818
+        },
+        {
+          "nucleotide": "A",
+          "pos": 151362
+        }
+      ],
+      "designation_date": "2023-01-11",
+      "name": "B.1.15",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "ON694335",
+          "isolate": "MPXV/Germany/2022/RKI018",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.15"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
+          "pos": 9389
+        },
+        {
+          "nucleotide": "A",
+          "pos": 161797
+        },
+        {
+          "nucleotide": "C",
+          "pos": 185557
+        }
+      ],
+      "designation_date": "2023-01-11",
+      "name": "B.1.16",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OP693647",
+          "isolate": "DC_INS_MPX_0082_L",
+          "source": "genbank"
+        },
+        {
+          "accession": "OP642395",
+          "isolate": "ANT-LDSP-ANT-MPX-24561-E",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.16"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 12169
+        },
+        {
+          "nucleotide": "A",
+          "pos": 44960
+        }
+      ],
+      "designation_date": "2023-01-11",
+      "name": "B.1.17",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OP442552",
+          "isolate": "hMPX/Human/USA/CA-LACPHL-MA00085/2022",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.17"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
           "pos": 186165
         }
       ],
@@ -547,5 +625,5 @@
     }
   ],
   "schemaVersion": "1.0.0",
-  "timestamp": "2023-01-24T20:40:26"
+  "timestamp": "2023-01-24T20:42:01"
 }
