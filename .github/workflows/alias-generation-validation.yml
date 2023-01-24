@@ -21,6 +21,8 @@ jobs:
         run: python scripts/generate-alias-key-json.py
       - name: Generate lineages.json
         run: python scripts/generate-single-file-json.py
+      - name: Generate lineages.md
+        run: python scripts/generate_markdown_summary.py
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: auto-generated/*
