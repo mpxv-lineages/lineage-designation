@@ -95,6 +95,23 @@
  * defining SNPs: 36617A,159779T
  * reference sequence: [MPXV/Germany/2022/RKI011](https://www.ncbi.nlm.nih.gov/nuccore/ON694342)
 
+## B.1.15
+ * parent: [B.1](#B1)
+ * defining SNPs: 149818A,151362A
+ * reference sequence: [MPXV/Germany/2022/RKI018](https://www.ncbi.nlm.nih.gov/nuccore/ON694335)
+
+## B.1.16
+ * parent: [B.1](#B1)
+ * defining SNPs: 9389T,161797A,185557C
+ * reference sequences:
+   - [DC_INS_MPX_0082_L](https://www.ncbi.nlm.nih.gov/nuccore/OP693647)
+   - [ANT-LDSP-ANT-MPX-24561-E](https://www.ncbi.nlm.nih.gov/nuccore/OP642395)
+
+## B.1.17
+ * parent: [B.1](#B1)
+ * defining SNPs: 12169A,44960A
+ * reference sequence: [hMPX/Human/USA/CA-LACPHL-MA00085/2022](https://www.ncbi.nlm.nih.gov/nuccore/OP442552)
+
 ## B.1.2
  * parent: [B.1](#B1)
  * defining SNPs: 186165A

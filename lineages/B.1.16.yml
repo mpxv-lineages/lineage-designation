@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: B.1.16
+unaliased_name: A.1.1.1.16
+parent: B.1
+designation_date: "2023-01-11"
+defining_snps:
+  - pos: 9389
+    nucleotide: T
+  - pos: 161797
+    nucleotide: A
+  - pos: 185557
+    nucleotide: C
+reference_sequences:
+  - source: genbank
+    accession: OP693647
+    isolate: DC_INS_MPX_0082_L
+  - source: genbank
+    accession: OP642395 
+    isolate: ANT-LDSP-ANT-MPX-24561-E
