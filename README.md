@@ -1,4 +1,4 @@
-# Monkeypox virus phylogenetic lineage designation
+# Mpox (formerly known as monkeypox) virus phylogenetic lineage designation
 
 This repository contains updates and details about monkeypox virus lineage designations.
 These lineages are meant to assist genomic epidemiology of monkeypox in humans and provide a fine-grained systematic nomenclature to refer to different circulating lineages.
