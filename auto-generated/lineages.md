@@ -112,10 +112,25 @@
  * defining SNPs: 12169A,44960A
  * reference sequence: [hMPX/Human/USA/CA-LACPHL-MA00085/2022](https://www.ncbi.nlm.nih.gov/nuccore/OP442552)
 
+## B.1.18
+ * parent: [B.1](#B1)
+ * defining SNPs: 141757T,43706T,124690C
+ * reference sequence: [MpxV/human/USA/WA-UW-083401/2022](https://www.ncbi.nlm.nih.gov/nuccore/OP628451)
+
+## B.1.19
+ * parent: [B.1](#B1)
+ * defining SNPs: 9963A,148268T
+ * reference sequence: [ID6821](https://www.ncbi.nlm.nih.gov/nuccore/OP838893)
+
 ## B.1.2
  * parent: [B.1](#B1)
  * defining SNPs: 186165A
  * reference sequence: [MPXV/Germany/2022/RKI124](https://www.ncbi.nlm.nih.gov/nuccore/ON929079)
+
+## B.1.20
+ * parent: [B.1](#B1)
+ * defining SNPs: 53326A,164385T,187620T
+ * reference sequence: [MPXV_USA_2022_TX0040](https://www.ncbi.nlm.nih.gov/nuccore/OQ320441)
 
 ## B.1.3
  * parent: [B.1](#B1)
@@ -154,4 +169,9 @@
  * parent: [B.1](#B1)
  * defining SNPs: 181367A
  * reference sequence: [Monkeypox/PT0043/2022](https://www.ncbi.nlm.nih.gov/nuccore/ON843175)
+
+## C.1
+ * parent: [B.1.3](#B13)
+ * defining SNPs: 105923A,64426T,55133A
+ * reference sequence: [MPXV/human/Japan/Tokyo/2022/TKY220165](https://www.ncbi.nlm.nih.gov/nuccore/LC753968)
 

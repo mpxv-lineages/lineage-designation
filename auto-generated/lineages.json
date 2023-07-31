@@ -441,6 +441,56 @@
     {
       "defining_snps": [
         {
+          "nucleotide": "T",
+          "pos": 141757
+        },
+        {
+          "nucleotide": "T",
+          "pos": 43706
+        },
+        {
+          "nucleotide": "C",
+          "pos": 124690
+        }
+      ],
+      "designation_date": "2023-08-01",
+      "name": "B.1.18",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OP628451",
+          "isolate": "MpxV/human/USA/WA-UW-083401/2022",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.18"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 9963
+        },
+        {
+          "nucleotide": "T",
+          "pos": 148268
+        }
+      ],
+      "designation_date": "2023-08-01",
+      "name": "B.1.19",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OP838893",
+          "isolate": "ID6821",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.19"
+    },
+    {
+      "defining_snps": [
+        {
           "nucleotide": "A",
           "pos": 186165
         }
@@ -458,6 +508,34 @@
       "unaliased_name": "A.1.1.1.2"
     },
     {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 53326
+        },
+        {
+          "nucleotide": "T",
+          "pos": 164385
+        },
+        {
+          "nucleotide": "T",
+          "pos": 187620
+        }
+      ],
+      "designation_date": "2023-08-01",
+      "name": "B.1.20",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OQ320441",
+          "isolate": "MPXV_USA_2022_TX0040",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.20"
+    },
+    {
+      "alias": "C",
       "defining_snps": [
         {
           "nucleotide": "A",
@@ -622,8 +700,35 @@
         }
       ],
       "unaliased_name": "A.1.1.1"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 105923
+        },
+        {
+          "nucleotide": "T",
+          "pos": 64426
+        },
+        {
+          "nucleotide": "A",
+          "pos": 55133
+        }
+      ],
+      "designation_date": "2022-08-01",
+      "name": "C.1",
+      "parent": "B.1.3",
+      "reference_sequences": [
+        {
+          "accession": "LC753968",
+          "isolate": "MPXV/human/Japan/Tokyo/2022/TKY220165",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.3.1"
     }
   ],
   "schemaVersion": "1.0.0",
-  "timestamp": "2023-05-15T13:41:01"
+  "timestamp": "2023-07-31T09:02:07"
 }
