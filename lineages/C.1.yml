@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: C.1
+unaliased_name: A.1.1.1.3.1
+parent: B.1.3
+designation_date: "2022-08-01"
+defining_snps:
+  - pos: 105923 # This is the defining SNP for C.1
+    nucleotide: A
+  - pos: 64426 # Non-defining but on path to C.1
+    nucleotide: T
+  - pos: 55133 # Non-defining but on path to C.1
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: LC753968
+    isolate: MPXV/human/Japan/Tokyo/2022/TKY220165
