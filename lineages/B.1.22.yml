@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: B.1.22
+unaliased_name: A.1.1.1.22
+parent: B.1
+designation_date: "2023-04-15"
+defining_snps:
+  - pos: 34784
+    nucleotide: T
+  - pos: 101418
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: OQ773522
+    isolate: MPXV/Germany/2022/ON/RKI903
+  - source: genbank
+    accession: OR095023
+    isolate: MPXV/UZ_REGA_205/Belgium/2022
