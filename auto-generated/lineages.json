@@ -535,6 +535,57 @@
       "unaliased_name": "A.1.1.1.20"
     },
     {
+      "defining_snps": [
+        {
+          "nucleotide": "A",
+          "pos": 22415
+        },
+        {
+          "nucleotide": "T",
+          "pos": 132698
+        }
+      ],
+      "designation_date": "2023-04-15",
+      "name": "B.1.21",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OP539939",
+          "isolate": "MPX/Human/USA/CA-LACPHL-MA00153/2022",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.21"
+    },
+    {
+      "defining_snps": [
+        {
+          "nucleotide": "T",
+          "pos": 34784
+        },
+        {
+          "nucleotide": "T",
+          "pos": 101418
+        }
+      ],
+      "designation_date": "2023-04-15",
+      "name": "B.1.22",
+      "parent": "B.1",
+      "reference_sequences": [
+        {
+          "accession": "OQ773522",
+          "isolate": "MPXV/Germany/2022/ON/RKI903",
+          "source": "genbank"
+        },
+        {
+          "accession": "OR095023",
+          "isolate": "MPXV/UZ_REGA_205/Belgium/2022",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.22"
+    },
+    {
       "alias": "C",
       "defining_snps": [
         {
@@ -704,6 +755,34 @@
     {
       "defining_snps": [
         {
+          "nucleotide": "T",
+          "pos": 21062
+        },
+        {
+          "nucleotide": "T",
+          "pos": 149963
+        }
+      ],
+      "designation_date": "2024-04-15",
+      "name": "C.1.1",
+      "parent": "C.1",
+      "reference_sequences": [
+        {
+          "accession": "OR643705",
+          "isolate": "MPV/Human/USA/CA-LACPHL-MA00563/2023",
+          "source": "genbank"
+        },
+        {
+          "accession": "OR804476",
+          "isolate": "MPV/PT0706/2023",
+          "source": "genbank"
+        }
+      ],
+      "unaliased_name": "A.1.1.1.3.1.1"
+    },
+    {
+      "defining_snps": [
+        {
           "nucleotide": "A",
           "pos": 105923
         },
@@ -730,5 +809,5 @@
     }
   ],
   "schemaVersion": "1.0.0",
-  "timestamp": "2023-07-31T09:17:14"
+  "timestamp": "2024-04-15T18:13:21"
 }
