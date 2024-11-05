@@ -8,8 +8,5 @@ defining_snps:
     nucleotide: T
 reference_sequences:
   - source: genbank
-    accession: ON674051
-  - source: genbank
-    accession: ON676707
-  - source: genbank
-    accession: ON675438
+    accession: OP612690
+    isolate: MPXV/113/19

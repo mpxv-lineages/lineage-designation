@@ -23,10 +23,7 @@
 ## A.2
  * parent: [A](#A)
  * defining SNPs: 34472T
- * reference sequences:
-   - [ON674051](https://www.ncbi.nlm.nih.gov/nuccore/ON674051)
-   - [ON676707](https://www.ncbi.nlm.nih.gov/nuccore/ON676707)
-   - [ON675438](https://www.ncbi.nlm.nih.gov/nuccore/ON675438)
+ * reference sequence: [MPXV/113/19](https://www.ncbi.nlm.nih.gov/nuccore/OP612690)
 
 ## A.2.1
  * parent: [A.2](#A2)

@@ -151,15 +151,8 @@
       "parent": "A",
       "reference_sequences": [
         {
-          "accession": "ON674051",
-          "source": "genbank"
-        },
-        {
-          "accession": "ON676707",
-          "source": "genbank"
-        },
-        {
-          "accession": "ON675438",
+          "accession": "OP612690",
+          "isolate": "MPXV/113/19",
           "source": "genbank"
         }
       ],
@@ -1119,5 +1112,5 @@
     }
   ],
   "schemaVersion": "1.0.0",
-  "timestamp": "2024-11-05T18:27:29"
+  "timestamp": "2024-11-05T18:31:03"
 }
