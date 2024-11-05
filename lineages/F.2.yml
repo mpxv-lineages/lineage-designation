@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: F.2
+unaliased_name: A.1.1.1.20.2
+parent: B.1.20
+designation_date: "2024-11-05"
+defining_snps:
+  - pos: 161629
+    nucleotide: A
+  - pos: 22167
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: PQ160003
+    isolate: hMpxV/USA/CA-CDPH-1M1000491/2023
