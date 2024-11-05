@@ -16,6 +16,8 @@ All of the 11 lineages satisfy the criteria for lineage designation last updated
 
 This lineage is a close sibling of B.1.20 and has been first sequenced in 2024, in Germany, Portugal and the US.
 
+The associated Github issue is <https://github.com/mpxv-lineages/lineage-designation/issues/43>.
+
 The yaml file can be found [here](../lineages/B.1.23.yml).
 
 #### D.1 (alias of B.1.6.1)
@@ -28,17 +30,23 @@ The yaml file can be found [here](../lineages/D.1.yml).
 
 This descendant of C.1.1 has been sequenced in Portugal, Germany, and the US.
 
+The associated Github issue is <https://github.com/mpxv-lineages/lineage-designation/issues/44>.
+
 The yaml file can be found [here](../lineages/E.1.yml).
 
 #### E.2 (alias of C.1.1.2)
 
 This descendant of C.1.1 has been sequenced in Portugal, Germany, Ireland, and the US.
 
+The associated Github issue is <https://github.com/mpxv-lineages/lineage-designation/issues/44>.
+
 The yaml file can be found [here](../lineages/E.2.yml).
 
 #### E.3 (alias of C.1.1.3)
 
 This descendant of C.1.1 has been sequenced in Portugal, Germany, Australia, and the US.
+
+The associated Github issue is <https://github.com/mpxv-lineages/lineage-designation/issues/44>.
 
 The yaml file can be found [here](../lineages/E.3.yml).
 
