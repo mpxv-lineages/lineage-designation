@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: F.4
+unaliased_name: A.1.1.1.20.4
+parent: B.1.20
+designation_date: "2024-11-05"
+defining_snps:
+  - pos: 34277
+    nucleotide: T
+  - pos: 92382
+    nucleotide: T
+  - pos: 122551
+    nucleotide: T
+  - pos: 126919
+    nucleotide: A
+  - pos: 176643
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: PP556326
+    isolate: hMpxV/USA/IL-RIPHL-050-0153/2024
