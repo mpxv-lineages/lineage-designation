@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: B.1.23
+unaliased_name: A.1.1.1.23
+parent: B.1
+designation_date: "2024-11-05"
+defining_snps:
+  - pos: 27935
+    nucleotide: A
+  - pos: 64171
+    nucleotide: G
+  - pos: 73235
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: PP754993
+    isolate: WA-UW-288850
+  - source: genbank
+    accession: PQ036000
+    isolate: MPXV/PT0823/2024
