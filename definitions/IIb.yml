@@ -1,0 +1,16 @@
+name: IIb
+type: clade
+parent: II
+defining_snps:
+  # Arbitrary choice from around 300 SNPs wrt clade II common ancestor
+  - pos: 48148
+    nucleotide: C
+  - pos: 170248
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: PP860031
+    isolate: 21V-04877
+  - source: genbank
+    accession: KJ642617.1
+    isolate: Nigeria-SE-1971

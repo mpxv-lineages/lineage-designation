@@ -27,7 +27,7 @@ properties:
   defining_snps:
     type: array
     uniqueItems: true
-    description: The defining SNPs of the lineage.
+    description: The defining SNPs of the lineage with respect to reference NC_063383.1
     items:
       type: object
       properties:

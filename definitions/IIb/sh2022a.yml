@@ -1,0 +1,15 @@
+name: sh2022a
+type: outbreak
+defining_snps:
+  # Arbitrary choice from around 8 SNPs wrt most recent pre-outbreak ancestor
+  - pos: 19367
+    nucleotide: T
+  - pos: 48527
+    nucleotide: A
+reference_sequences:
+  - source: refseq
+    accession: NC_063383
+    isolate: MPXV-M5312_HM12_Rivers
+  - source: genbank
+    accession: OP535340.1
+    isolate: MPXV_Nigeria_2017_2888
