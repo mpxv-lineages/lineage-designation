@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: E.2.1
+unaliased_name: A.1.1.1.3.1.1.2.1
+parent: E.2
+designation_date: "TKTK"
+defining_snps:
+  - pos: 55466
+    nucleotide: A
+  - pos: 135121
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: PP776551
+    isolate: MPXV/Germany/2024/ON/RKI1089

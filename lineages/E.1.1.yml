@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: E.1.1
+unaliased_name: A.1.1.1.3.1.1.1.1
+parent: E.1
+designation_date: "TKTK"
+defining_snps:
+  - pos: 41405
+    nucleotide: T
+  - pos: 157928
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: PQ219872
+    isolate: MPXV/Germany/2024/ON/RKI1106
+  - source: genbank
+    accession: PQ213331
+    isolate: Monkeypox virus/Human/USA/CA-LACPHL-MA00658/2024

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: H.1
+unaliased_name: A.2.1.1
+parent: A.2.1
+designation_date: "TKTK"
+defining_snps:
+  - pos: 43946
+    nucleotide: A
+  - pos: 133926
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: PQ059889
+    isolate: hMpxV/Austria/MUW1721722/2024
+  - source: genbank
+    accession: PQ178860
+    isolate: Monkeypox/PT0824/2024
