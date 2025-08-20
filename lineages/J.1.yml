@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: J.1
+unaliased_name: A.1.1.1.22.1
+parent: B.1.22
+alias: J
+designation_date: "TKTK"
+defining_snps:
+  - pos: 121663
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: PP701815
+    isolate: MPXV/Human/USA/CA-LACPHL-MA00617/2024
+  - source: genbank
+    accession: PQ499042
+    isolate: MPXV/Germany/2024/ON/RKI1140
+# Lots of Brazil GISAID sequences

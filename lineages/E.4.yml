@@ -15,3 +15,5 @@ reference_sequences:
   - source: genbank
     accession: PQ153132
     isolate: hMPXV/Australia/VIC-6948/2024
+
+# Also India/Japan/Taiwan

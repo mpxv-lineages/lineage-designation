@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: F.2.2
+unaliased_name: A.1.1.1.20.2.2
+parent: F.2
+designation_date: "TKTK"
+defining_snps:
+  - pos: 44032
+    nucleotide: T
+  - pos: 80820
+    nucleotide: A
+  - pos: 165892
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: PQ153197
+    isolate: hMPXV/Australia/VIC-3955/2024
+  - source: genbank
+    accession: PQ662916
+    isolate: MPXV/Germany/2024/ON/RKI1157
+# A dozen GISAID Brazil sequences

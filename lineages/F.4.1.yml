@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: F.4.1
+unaliased_name: A.1.1.1.20.4.1
+parent: F.4
+designation_date: "TKTK"
+defining_snps:
+  - pos: 21394
+    nucleotide: A
+  - pos: 111492
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: PQ274322
+    isolate: hMpxV/USA/CA-CDPH-1M1000649/2024
+  - source: genbank
+    accession: PQ261055
+    isolate: NYCPHL-0001370
+# Brazil-SP GISAID sequences

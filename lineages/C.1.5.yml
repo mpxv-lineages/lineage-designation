@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: C.1.5
+unaliased_name: A.1.1.1.3.1.5
+parent: C.1
+designation_date: "TKTK"
+defining_snps:
+  - pos: 52108
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: PQ368485
+    isolate: OR459802
+  # Lots of Vietnam, some ROK/Japan
+
+

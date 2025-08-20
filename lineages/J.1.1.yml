@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: J.1
+unaliased_name: A.1.1.1.22.1.1
+parent: J.1
+designation_date: "TKTK"
+defining_snps:
+  - pos: 19399
+    nucleotide: T
+  - pos: 131977
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: PP799939
+    isolate: MPXV/Human/USA/CA-LACPHL-MA00622/2024
+  - source: genbank
+    accession: PQ499042
+    isolate: MPXV/Germany/2024/ON/RKI1140
