@@ -1,22 +1,20 @@
 # yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
 name: F.2.1
 unaliased_name: A.1.1.1.20.2.1
-parent: F.2
+parent: F.1
 designation_date: "TKTK"
 defining_snps:
-  - pos: 31006
+  - pos: 44032
     nucleotide: T
-  - pos: 78509
+  - pos: 80820
+    nucleotide: A
+  - pos: 165892
     nucleotide: A
 reference_sequences:
   - source: genbank
-    accession: PV834997
-    isolate: Monkeypox virus/Human/USA/CA-LACPHL-MA00731/2025
+    accession: PQ153197
+    isolate: hMPXV/Australia/VIC-3955/2024
   - source: genbank
-    accession: PV765593
-    isolate: hMpxV/USA/IL-RIPHL-MPXV-004-0223/2025
-  # Additional sequences from Brazil, currently available through GISAID only
-  # E.g. hMpxV/Brazil/SP-IAL-357825341/2024|EPI_ISL_19359692
-  # Also Peru
-
-
+    accession: PQ662916
+    isolate: MPXV/Germany/2024/ON/RKI1157
+# A dozen GISAID Brazil sequences

@@ -5,9 +5,9 @@ parent: C.1
 designation_date: "TKTK"
 defining_snps:
   - pos: 33332
-    nucleotide: C
+    nucleotide: T
   - pos: 37974
-    nucleotide: G
+    nucleotide: A
 reference_sequences:
   - source: genbank
     accession: PQ368486

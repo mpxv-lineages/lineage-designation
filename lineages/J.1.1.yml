@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
-name: J.1
+name: J.1.1
 unaliased_name: A.1.1.1.22.1.1
 parent: J.1
 designation_date: "TKTK"
