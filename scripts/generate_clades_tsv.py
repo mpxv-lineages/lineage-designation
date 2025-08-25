@@ -96,12 +96,12 @@ def build_hierarchy(lineages):
     return sorted_lineages, parents
 
 
-def generate_clades_tsv(lineages_dir, output_file):
-    """Generate clades.tsv file from lineage YAML files."""
+def generate_output_files(lineages_dir, clades_output_file, color_ordering_output_file):
+    """Generate clades.tsv and color_ordering.tsv files from lineage YAML files."""
     lineages = load_lineage_files(lineages_dir)
     sorted_lineages, parents = build_hierarchy(lineages)
 
-    with open(output_file, "w") as f:
+    with open(clades_output_file, "w") as f:
         # Write header
         f.write(
             "# Nuc coordinates valid for reference NC_063383 (MPXV-M5312_HM12_Rivers)\n"
@@ -109,7 +109,7 @@ def generate_clades_tsv(lineages_dir, output_file):
         f.write("clade\tgene\tsite\talt\n")
 
         # Add outgroup and root clade entries based on the example
-        f.write("outgroup\tnuc\t54013\tG\n")
+        f.write("unassigned\tnuc\t54013\tG\n")
         f.write("\nclade IIb\tnuc\t48148\tC\n")
 
         # Process each lineage in topological order
@@ -131,18 +131,25 @@ def generate_clades_tsv(lineages_dir, output_file):
                     nucleotide = snp["nucleotide"]
                     f.write(f"{lineage_name}\tnuc\t{pos}\t{nucleotide}\n")
 
+    with open(color_ordering_output_file, "w") as f:
+        for lineage_name in sorted_lineages:
+            f.write(f"lineage\t{lineage_name}\n")
+
 
 def main():
     script_dir = Path(__file__).parent.parent
     lineages_dir = script_dir / "lineages"
-    output_file = script_dir / "auto-generated" / "clades_IIb.tsv"
+    autogen_dir = script_dir / "auto-generated"
+    clades_output_file = autogen_dir / "clades_IIb.tsv"
+    color_ordering_output_file = autogen_dir / "color_ordering.tsv"
 
     if not lineages_dir.exists():
         print(f"Error: Lineages directory not found at {lineages_dir}")
         return 1
 
-    generate_clades_tsv(lineages_dir, output_file)
-    print(f"Generated clades.tsv at {output_file}")
+    generate_output_files(lineages_dir, clades_output_file, color_ordering_output_file)
+    print(f"Generated clades.tsv at {clades_output_file}")
+    print(f"Generated color_ordering.tsv at {color_ordering_output_file}")
     return 0
 
 
