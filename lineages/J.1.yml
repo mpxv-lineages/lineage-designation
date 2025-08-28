@@ -5,6 +5,8 @@ parent: B.1.22
 alias: J
 designation_date: "TKTK"
 defining_snps:
+  - pos: 45528
+    nucleotide: T
   - pos: 121663
     nucleotide: A
 reference_sequences:
@@ -14,4 +16,3 @@ reference_sequences:
   - source: genbank
     accession: PQ499042
     isolate: MPXV/Germany/2024/ON/RKI1140
-# Lots of Brazil GISAID sequences

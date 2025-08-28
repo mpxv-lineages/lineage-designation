@@ -4,14 +4,16 @@ unaliased_name: A.2.1.1
 parent: A.2.1
 designation_date: "TKTK"
 defining_snps:
-  - pos: 43946
+  - pos: 52289
     nucleotide: A
-  - pos: 133926
-    nucleotide: T
+  - pos: 67261
+    nucleotide: A
+  - pos: 181947
+    nucleotide: A
 reference_sequences:
   - source: genbank
-    accession: PQ059889
-    isolate: hMpxV/Austria/MUW1721722/2024
+    accession: OQ261694
+    isolate: MPXV-ROK-P3-2022
   - source: genbank
-    accession: PQ178860
-    isolate: Monkeypox/PT0824/2024
+    accession: PQ352005
+    isolate: MPXV/Germany/2024/ON/RKI1111

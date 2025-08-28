@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: H.2
+unaliased_name: A.2.1.2
+parent: A.2.1
+designation_date: "TKTK"
+defining_snps:
+  - pos: 43103
+    nucleotide: A
+  - pos: 184924
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: OP605572
+    isolate: Slovenia-MPXV-30-2022
+  - source: genbank
+    accession: OR455100
+    isolate: MpxV/human/USA/WA-UW-081251/2023
