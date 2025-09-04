@@ -2,7 +2,6 @@
 name: J.1
 unaliased_name: A.1.1.1.22.1
 parent: B.1.22
-alias: J
 designation_date: "TKTK"
 defining_snps:
   - pos: 45528
