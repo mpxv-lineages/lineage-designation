@@ -46,6 +46,20 @@
    - [MPXV_USA_2021_TX](https://www.ncbi.nlm.nih.gov/nuccore/ON676707)
    - [Monkeypox/PT0428/2022](https://www.ncbi.nlm.nih.gov/nuccore/OP555515)
 
+## A.2.4
+ * parent: [A.2](#A2)
+ * defining SNPs: 15105T,179628G
+ * reference sequences:
+   - [MPXV_USA_2022_VA001](https://www.ncbi.nlm.nih.gov/nuccore/ON675438)
+   - [MPXV-GH-22-046](https://www.ncbi.nlm.nih.gov/nuccore/PV982295)
+
+## A.2.5
+ * parent: [A.2](#A2)
+ * defining SNPs: 12426T,134107A
+ * reference sequences:
+   - [TRM329](https://www.ncbi.nlm.nih.gov/nuccore/PP853023)
+   - [PP853031](https://www.ncbi.nlm.nih.gov/nuccore/TRM337)
+
 ## A.3
  * parent: [A](#A)
  * defining SNPs: 96841A,100971T
@@ -198,6 +212,20 @@
    - [MPV/Human/USA/CA-LACPHL-MA00563/2023](https://www.ncbi.nlm.nih.gov/nuccore/OR643705)
    - [MPV/PT0706/2023](https://www.ncbi.nlm.nih.gov/nuccore/OR804476)
 
+## C.1.2
+ * parent: [C.1](#C1)
+ * defining SNPs: 28142A,126761A
+ * reference sequences:
+   - [hMpoxV/Japan/MX23-026-01/2023](https://www.ncbi.nlm.nih.gov/nuccore/LC876665)
+   - [OZ257120](https://www.ncbi.nlm.nih.gov/nuccore/OZ257120)
+
+## C.1.3
+ * parent: [C.1](#C1)
+ * defining SNPs: 33332T,37974A
+ * reference sequences:
+   - [CU-ID23283](https://www.ncbi.nlm.nih.gov/nuccore/PQ368486)
+   - [MpxV/human/USA/WA-UW-092809/2023](https://www.ncbi.nlm.nih.gov/nuccore/OR665166)
+
 ## D.1
  * parent: [B.1.6](#B16)
  * defining SNPs: 10945A,39515A,44627T,56276A
@@ -208,25 +236,65 @@
  * defining SNPs: 13563A,121394T,162280A
  * reference sequence: [MPV/PT0732/2023](https://www.ncbi.nlm.nih.gov/nuccore/OR804499)
 
+## E.1.1
+ * parent: [E.1](#E1)
+ * defining SNPs: 41405T,157928T
+ * reference sequences:
+   - [MPXV/Germany/2024/ON/RKI1106](https://www.ncbi.nlm.nih.gov/nuccore/PQ219872)
+   - [Monkeypox virus/Human/USA/CA-LACPHL-MA00658/2024](https://www.ncbi.nlm.nih.gov/nuccore/PQ213331)
+
 ## E.2
  * parent: [C.1.1](#C11)
  * defining SNPs: 13563A,151847A,37738T
  * reference sequence: [MPXV/PT0661/2023](https://www.ncbi.nlm.nih.gov/nuccore/OR487983)
+
+## E.2.1
+ * parent: [E.2](#E2)
+ * defining SNPs: 55466A,135121T
+ * reference sequence: [MPXV/Germany/2024/ON/RKI1089](https://www.ncbi.nlm.nih.gov/nuccore/PP776551)
 
 ## E.3
  * parent: [C.1.1](#C11)
  * defining SNPs: 142797T
  * reference sequence: [MPXV/PT0627/2023](https://www.ncbi.nlm.nih.gov/nuccore/OR326991)
 
+## E.3.1
+ * parent: [E.3](#E3)
+ * defining SNPs: 113957T,74018T
+ * reference sequences:
+   - [MPXV/Germany/2024/ON/RKI1126](https://www.ncbi.nlm.nih.gov/nuccore/PQ419877)
+   - [OZ256744](https://www.ncbi.nlm.nih.gov/nuccore/OZ256744)
+
+## E.4
+ * parent: [C.1.1](#C11)
+ * defining SNPs: 41806A,136791G
+ * reference sequences:
+   - [MPXV_China_GD_2024_BA21](https://www.ncbi.nlm.nih.gov/nuccore/PV785666)
+   - [hMPXV/Australia/VIC-6948/2024](https://www.ncbi.nlm.nih.gov/nuccore/PQ153132)
+
 ## F.1
  * parent: [B.1.20](#B120)
  * defining SNPs: 11668A,35132A,70414T,70666T,96938T
  * reference sequence: [NY-NYCPHL-001231](https://www.ncbi.nlm.nih.gov/nuccore/PP533295)
 
+## F.1.1
+ * parent: [F.1](#F1)
+ * defining SNPs: 133402T,143277T
+ * reference sequences:
+   - [MPXV/Human/USA/CA-LACPHL-MA00644/2024](https://www.ncbi.nlm.nih.gov/nuccore/PQ059893)
+   - [WA-UW-026851](https://www.ncbi.nlm.nih.gov/nuccore/PQ328532)
+
 ## F.2
  * parent: [B.1.20](#B120)
  * defining SNPs: 161629A,22167T
  * reference sequence: [hMpxV/USA/CA-CDPH-1M1000491/2023](https://www.ncbi.nlm.nih.gov/nuccore/PQ160003)
+
+## F.2.1
+ * parent: [F.2](#F2)
+ * defining SNPs: 44032T,80820A,165892A
+ * reference sequences:
+   - [hMPXV/Australia/VIC-3955/2024](https://www.ncbi.nlm.nih.gov/nuccore/PQ153197)
+   - [MPXV/Germany/2024/ON/RKI1157](https://www.ncbi.nlm.nih.gov/nuccore/PQ662916)
 
 ## F.3
  * parent: [B.1.20](#B120)
@@ -237,6 +305,13 @@
  * parent: [B.1.20](#B120)
  * defining SNPs: 34277T,92382T,122551T,126919A,176643A
  * reference sequence: [hMpxV/USA/IL-RIPHL-050-0153/2024](https://www.ncbi.nlm.nih.gov/nuccore/PP556326)
+
+## F.4.1
+ * parent: [F.4](#F4)
+ * defining SNPs: 21394A,111492T
+ * reference sequences:
+   - [hMpxV/USA/CA-CDPH-1M1000649/2024](https://www.ncbi.nlm.nih.gov/nuccore/PQ274322)
+   - [NYCPHL-0001370](https://www.ncbi.nlm.nih.gov/nuccore/PQ261055)
 
 ## F.5
  * parent: [B.1.20](#B120)
@@ -249,4 +324,30 @@
  * parent: [B.1.20](#B120)
  * defining SNPs: 146690A,159608T,168964A
  * reference sequence: [MpxV/human/USA/WA-UW-097833/2023](https://www.ncbi.nlm.nih.gov/nuccore/OR665162)
+
+## G.1
+ * parent: [A.2.2](#A22)
+ * defining SNPs: 85413T,164382C
+ * reference sequence: [MpxvSL01](https://www.ncbi.nlm.nih.gov/nuccore/PV683566)
+
+## H.1
+ * parent: [A.2.1](#A21)
+ * defining SNPs: 52289A,67261A,181947A
+ * reference sequences:
+   - [MPXV-ROK-P3-2022](https://www.ncbi.nlm.nih.gov/nuccore/OQ261694)
+   - [MPXV/Germany/2024/ON/RKI1111](https://www.ncbi.nlm.nih.gov/nuccore/PQ352005)
+
+## H.2
+ * parent: [A.2.1](#A21)
+ * defining SNPs: 43103A,184924T
+ * reference sequences:
+   - [Slovenia-MPXV-30-2022](https://www.ncbi.nlm.nih.gov/nuccore/OP605572)
+   - [MpxV/human/USA/WA-UW-081251/2023](https://www.ncbi.nlm.nih.gov/nuccore/OR455100)
+
+## J.1
+ * parent: [B.1.22](#B122)
+ * defining SNPs: 45528T,121663A
+ * reference sequences:
+   - [MPXV/Human/USA/CA-LACPHL-MA00617/2024](https://www.ncbi.nlm.nih.gov/nuccore/PP701815)
+   - [MPXV/Germany/2024/ON/RKI1140](https://www.ncbi.nlm.nih.gov/nuccore/PQ499042)
 
