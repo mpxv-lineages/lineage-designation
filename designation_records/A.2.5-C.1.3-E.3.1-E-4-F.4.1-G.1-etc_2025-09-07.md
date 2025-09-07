@@ -62,6 +62,10 @@ E.2.1 is an E.2 descendant with circulation in Europe.
 
 E.3.1 is an E.3 descendant with circulation in Europe and the US.
 
+### F.1.1
+
+F.1.1 is an F.1 descendant with circulation in the US, Canada, Peru and Vietnam.
+
 ### F.2.1
 
 F.2.1 is an F.2 descendant with recent circulation in Europe.

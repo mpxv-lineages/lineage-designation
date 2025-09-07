@@ -2,6 +2,9 @@
 
 from collections import defaultdict
 from pathlib import Path
+import json
+import urllib.request
+import urllib.parse
 
 import yaml
 
@@ -20,6 +23,38 @@ def load_lineage_files(lineages_dir):
             lineages[data["name"]] = data
 
     return lineages
+
+
+def get_pathoplexus_accessions(insdc_accessions):
+    """Query LAPIS API to get pathoplexus accessions for INSDC accessions."""
+    if not insdc_accessions:
+        return {}
+    
+    # Build query for multiple accessions
+    query_parts = [f"insdcAccessionBase={acc}" for acc in insdc_accessions]
+    advanced_query = " OR ".join(query_parts)
+    
+    # URL encode the query
+    encoded_query = urllib.parse.quote(advanced_query)
+    url = f"https://lapis.pathoplexus.org/mpox/sample/details?advancedQuery={encoded_query}"
+    
+    try:
+        with urllib.request.urlopen(url) as response:
+            data = json.loads(response.read())
+        
+        # Build mapping from INSDC to pathoplexus accession
+        insdc_to_pathoplexus = {}
+        for entry in data.get("data", []):
+            insdc_base = entry.get("insdcAccessionBase")
+            pathoplexus_acc = entry.get("accession")
+            if insdc_base and pathoplexus_acc:
+                insdc_to_pathoplexus[insdc_base] = pathoplexus_acc
+        
+        return insdc_to_pathoplexus
+    
+    except Exception as e:
+        print(f"Warning: Could not fetch pathoplexus accessions: {e}")
+        return {}
 
 
 def lineage_sort_key(lineage_name):
@@ -96,8 +131,8 @@ def build_hierarchy(lineages):
     return sorted_lineages, parents
 
 
-def generate_output_files(lineages_dir, clades_output_file, color_ordering_output_file):
-    """Generate clades.tsv and color_ordering.tsv files from lineage YAML files."""
+def generate_output_files(lineages_dir, clades_output_file, color_ordering_output_file, lineage_accessions_output_file):
+    """Generate clades.tsv, color_ordering.tsv, and lineage_accessions.tsv files from lineage YAML files."""
     lineages = load_lineage_files(lineages_dir)
     sorted_lineages, parents = build_hierarchy(lineages)
 
@@ -135,6 +170,39 @@ def generate_output_files(lineages_dir, clades_output_file, color_ordering_outpu
         for lineage_name in sorted_lineages:
             f.write(f"lineage\t{lineage_name}\n")
 
+    # Collect all INSDC accessions first for batch querying
+    all_insdc_accessions = set()
+    for lineage_name in sorted_lineages:
+        lineage_data = lineages[lineage_name]
+        if "reference_sequences" in lineage_data:
+            for ref_seq in lineage_data["reference_sequences"]:
+                accession = ref_seq.get("accession", "")
+                if accession:
+                    all_insdc_accessions.add(accession)
+    
+    # Get pathoplexus accessions mapping
+    print("Fetching pathoplexus accessions...")
+    insdc_to_pathoplexus = get_pathoplexus_accessions(list(all_insdc_accessions))
+
+    with open(lineage_accessions_output_file, "w") as f:
+        # Write header
+        f.write("lineage\taccession\tstrain\tpathoplexus_accession\n")
+        
+        # Process each lineage in sorted order
+        for lineage_name in sorted_lineages:
+            lineage_data = lineages[lineage_name]
+            
+            # Get reference sequences
+            if "reference_sequences" in lineage_data:
+                for ref_seq in lineage_data["reference_sequences"]:
+                    accession = ref_seq.get("accession", "")
+                    strain = ref_seq.get("isolate", "")
+                    
+                    # Only include entries with accessions (INSDC accessions)
+                    if accession:
+                        pathoplexus_acc = insdc_to_pathoplexus.get(accession, "")
+                        f.write(f"{lineage_name}\t{accession}\t{strain}\t{pathoplexus_acc}\n")
+
 
 def main():
     script_dir = Path(__file__).parent.parent
@@ -142,14 +210,16 @@ def main():
     autogen_dir = script_dir / "auto-generated"
     clades_output_file = autogen_dir / "clades_IIb.tsv"
     color_ordering_output_file = autogen_dir / "color_ordering.tsv"
+    lineage_accessions_output_file = autogen_dir / "lineage_accessions.tsv"
 
     if not lineages_dir.exists():
         print(f"Error: Lineages directory not found at {lineages_dir}")
         return 1
 
-    generate_output_files(lineages_dir, clades_output_file, color_ordering_output_file)
+    generate_output_files(lineages_dir, clades_output_file, color_ordering_output_file, lineage_accessions_output_file)
     print(f"Generated clades.tsv at {clades_output_file}")
     print(f"Generated color_ordering.tsv at {color_ordering_output_file}")
+    print(f"Generated lineage_accessions.tsv at {lineage_accessions_output_file}")
     return 0
 
 
