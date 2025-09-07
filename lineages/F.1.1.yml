@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: F.1.1
+unaliased_name: A.1.1.1.20.1.1
+parent: F.1
+designation_date: "2025-09-06"
+defining_snps:
+# C133402T, C143277T
+  - pos: 133402
+    nucleotide: T
+  - pos: 143277
+    nucleotide: T
+reference_sequences:
+  - source: genbank
+    accession: PQ059893
+    isolate: MPXV/Human/USA/CA-LACPHL-MA00644/2024
+  - source: genbank
+    accession: PQ328532
+    isolate: WA-UW-026851

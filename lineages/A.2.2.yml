@@ -2,6 +2,7 @@
 name: A.2.2
 unaliased_name: A.2.2
 parent: A.2
+alias: G
 designation_date: "2022-09-26"
 defining_snps:
   - pos: 21991

@@ -2,7 +2,8 @@
 name: B.1.22
 unaliased_name: A.1.1.1.22
 parent: B.1
-designation_date: "2023-04-15"
+alias: J
+designation_date: "2024-04-15"
 defining_snps:
   - pos: 34784
     nucleotide: T

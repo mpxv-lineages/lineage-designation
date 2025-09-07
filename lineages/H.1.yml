@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: H.1
+unaliased_name: A.2.1.1
+parent: A.2.1
+designation_date: "2025-09-06"
+defining_snps:
+  - pos: 52289
+    nucleotide: A
+  - pos: 67261
+    nucleotide: A
+  - pos: 181947
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: OQ261694
+    isolate: MPXV-ROK-P3-2022
+  - source: genbank
+    accession: PQ352005
+    isolate: MPXV/Germany/2024/ON/RKI1111
