@@ -2,3 +2,4 @@ package-lock.json
 .vscode/*
 auto-generated/reference_sequences.fasta
 auto-generated/reference_accessions.txt
+.claude/

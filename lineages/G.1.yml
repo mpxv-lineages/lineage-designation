@@ -2,7 +2,7 @@
 name: G.1
 unaliased_name: A.2.2.1
 parent: A.2.2
-designation_date: "2025-09-06"
+designation_date: "2025-09-07"
 defining_snps:
   - pos: 85413
     nucleotide: T

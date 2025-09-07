@@ -2,7 +2,7 @@
 name: F.2.1
 unaliased_name: A.1.1.1.20.2.1
 parent: F.2
-designation_date: "2025-09-06"
+designation_date: "2025-09-07"
 defining_snps:
   - pos: 44032
     nucleotide: T

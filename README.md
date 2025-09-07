@@ -52,6 +52,7 @@ You can find markdown documents describing the rationale of lineage designation 
 - [2023-08-01: B.1.18-B.1.19-B.1.20-C.1](designation_records/B.1.18-B.1.19-B.1.20-C.1_2023-08-01.md)
 - [2024-04-15: B.1.21-B.1.22-C.1.1](designation_records/B.1.21-B.1.22-C.1.1_2024-04-15.md)
 - [2024-11-05: B.1.23-D.1-E.1-3-F.1-6](designation_records/B.1.23-D.1-E.1-3-F.1-6_2024-11-05.md)
+- [2025-09-07: A.2.5-C.1.3-E.3.1-E-4-F.4.1-G.1-etc](designation_records/A.2.5-C.1.3-E.3.1-E-4-F.4.1-G.1-etc_2025-09-07.md)
 
 ## Lineage proposals
 
