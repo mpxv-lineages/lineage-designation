@@ -2,7 +2,7 @@
 name: J.1
 unaliased_name: A.1.1.1.22.1
 parent: B.1.22
-designation_date: "TKTK"
+designation_date: "2025-09-06"
 defining_snps:
   - pos: 45528
     nucleotide: T
