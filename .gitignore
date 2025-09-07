@@ -3,8 +3,3 @@ package-lock.json
 auto-generated/reference_sequences.fasta
 auto-generated/reference_accessions.txt
 .claude/
-ref_lineages.txt
-reference_clades.tsv
-clades.tsv
-color_ordering.tsv
-gen_lineages.txt
