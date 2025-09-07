@@ -58,7 +58,7 @@
  * defining SNPs: 12426T,134107A
  * reference sequences:
    - [TRM329](https://www.ncbi.nlm.nih.gov/nuccore/PP853023)
-   - [PP853031](https://www.ncbi.nlm.nih.gov/nuccore/TRM337)
+   - [TRM337](https://www.ncbi.nlm.nih.gov/nuccore/PP853031)
 
 ## A.3
  * parent: [A](#A)
