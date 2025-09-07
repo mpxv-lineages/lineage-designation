@@ -2,6 +2,9 @@
 
 from collections import defaultdict
 from pathlib import Path
+import json
+import urllib.request
+import urllib.parse
 
 import yaml
 
@@ -20,6 +23,38 @@ def load_lineage_files(lineages_dir):
             lineages[data["name"]] = data
 
     return lineages
+
+
+def get_pathoplexus_accessions(insdc_accessions):
+    """Query LAPIS API to get pathoplexus accessions for INSDC accessions."""
+    if not insdc_accessions:
+        return {}
+    
+    # Build query for multiple accessions
+    query_parts = [f"insdcAccessionBase={acc}" for acc in insdc_accessions]
+    advanced_query = " OR ".join(query_parts)
+    
+    # URL encode the query
+    encoded_query = urllib.parse.quote(advanced_query)
+    url = f"https://lapis.pathoplexus.org/mpox/sample/details?advancedQuery={encoded_query}"
+    
+    try:
+        with urllib.request.urlopen(url) as response:
+            data = json.loads(response.read())
+        
+        # Build mapping from INSDC to pathoplexus accession
+        insdc_to_pathoplexus = {}
+        for entry in data.get("data", []):
+            insdc_base = entry.get("insdcAccessionBase")
+            pathoplexus_acc = entry.get("accession")
+            if insdc_base and pathoplexus_acc:
+                insdc_to_pathoplexus[insdc_base] = pathoplexus_acc
+        
+        return insdc_to_pathoplexus
+    
+    except Exception as e:
+        print(f"Warning: Could not fetch pathoplexus accessions: {e}")
+        return {}
 
 
 def lineage_sort_key(lineage_name):
@@ -135,9 +170,23 @@ def generate_output_files(lineages_dir, clades_output_file, color_ordering_outpu
         for lineage_name in sorted_lineages:
             f.write(f"lineage\t{lineage_name}\n")
 
+    # Collect all INSDC accessions first for batch querying
+    all_insdc_accessions = set()
+    for lineage_name in sorted_lineages:
+        lineage_data = lineages[lineage_name]
+        if "reference_sequences" in lineage_data:
+            for ref_seq in lineage_data["reference_sequences"]:
+                accession = ref_seq.get("accession", "")
+                if accession:
+                    all_insdc_accessions.add(accession)
+    
+    # Get pathoplexus accessions mapping
+    print("Fetching pathoplexus accessions...")
+    insdc_to_pathoplexus = get_pathoplexus_accessions(list(all_insdc_accessions))
+
     with open(lineage_accessions_output_file, "w") as f:
         # Write header
-        f.write("lineage\taccession\tstrain\n")
+        f.write("lineage\taccession\tstrain\tpathoplexus_accession\n")
         
         # Process each lineage in sorted order
         for lineage_name in sorted_lineages:
@@ -151,7 +200,8 @@ def generate_output_files(lineages_dir, clades_output_file, color_ordering_outpu
                     
                     # Only include entries with accessions (INSDC accessions)
                     if accession:
-                        f.write(f"{lineage_name}\t{accession}\t{strain}\n")
+                        pathoplexus_acc = insdc_to_pathoplexus.get(accession, "")
+                        f.write(f"{lineage_name}\t{accession}\t{strain}\t{pathoplexus_acc}\n")
 
 
 def main():
