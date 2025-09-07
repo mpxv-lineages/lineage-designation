@@ -12,13 +12,13 @@ All new lineages satisfy the criteria for lineage designation last updated in Oc
 - Clear common phylogenetic structure (no uncertainty about possibly being designated as 2 lineages instead of 1)
 - Having at least one openly available high quality reference sequence
 
-#### G.1 (alias of A.2.2.1)
+### G.1 (alias of A.2.2.1)
 
 Sierra Leone outbreak lineage first described <https://virological.org/t/genomic-epidemiology-of-mpox-virus-in-sierra-leone/995>
 
 The Github issue is at <https://github.com/mpxv-lineages/lineage-designation/issues/46>
 
-#### A.2.4
+### A.2.4
 
 A.2.4 is an A.2 descendant lineage that was sampled in 2022, mostly in Ghana and once in the US.
 
@@ -69,3 +69,4 @@ F.2.1 is an F.2 descendant with recent circulation in Europe.
 ### F.4.1
 
 F.4.1 is an F.4 descendant with recent circulation in Europe and the US.
+
