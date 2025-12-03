@@ -1,9 +1,12 @@
 #! python
 #%%
-import json
-import yaml
 import glob
 import itertools
+import json
+
+import yaml
+
+DEFINITIONS_DIR = 'definitions/IIb/sh2017'
 
 # A is implicitly aliased to itself
 aliases = {'A': 'A'}
@@ -26,7 +29,7 @@ with open('auto-generated/alias_key.json', 'w') as outfile:
 # %%
 # Validate unaliased names
 validation_failed = False
-for yaml_file in glob.glob('lineages/*.yml'):
+for yaml_file in glob.glob(f"{DEFINITIONS_DIR}/*.yml"):
     with open(yaml_file, 'r') as stream:
         yaml_data = yaml.safe_load(stream)
     # Unalias (aliased) name
@@ -56,7 +59,7 @@ for yaml_file in glob.glob('lineages/*.yml'):
 #%%
 # Validate parents
 validation_failed = False
-for yaml_file in glob.glob('lineages/*.yml'):
+for yaml_file in glob.glob(f"{DEFINITIONS_DIR}/*.yml"):
     with open(yaml_file, 'r') as stream:
         yaml_data = yaml.safe_load(stream)
     parent = yaml_data['parent']

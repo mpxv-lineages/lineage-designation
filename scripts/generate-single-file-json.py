@@ -1,11 +1,14 @@
 #! python
 #%%
-import json
-import yaml
-import glob
 import datetime
+import glob
+import json
+
+import yaml
 
 VERSION = ("1", "0", "0")
+
+DEFINITIONS_DIR = 'definitions/IIb/sh2017'
 
 result = {
     "$schema": f"https://raw.githubusercontent.com/mpxv-lineages/lineage-designation/master/schemas/all_lineages/lineages_schema-{'-'.join(VERSION)}.yml#",
@@ -15,7 +18,7 @@ result = {
 
 lineages = []
 # Iterate through all lineage definition files
-for yaml_file in sorted(glob.glob('lineages/*.yml')):
+for yaml_file in sorted(glob.glob(f'{DEFINITIONS_DIR}/*.yml')):
     with open(yaml_file, 'r') as stream:
         yaml_data = yaml.safe_load(stream)
     lineages.append(yaml_data)

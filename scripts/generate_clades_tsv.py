@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
+import json
+import urllib.parse
+import urllib.request
 from collections import defaultdict
 from pathlib import Path
-import json
-import urllib.request
-import urllib.parse
 
 import yaml
 
@@ -206,7 +206,7 @@ def generate_output_files(lineages_dir, clades_output_file, color_ordering_outpu
 
 def main():
     script_dir = Path(__file__).parent.parent
-    lineages_dir = script_dir / "lineages"
+    lineages_dir = script_dir / "definitions"/ "IIb" / "sh2017"
     autogen_dir = script_dir / "auto-generated"
     clades_output_file = autogen_dir / "clades_IIb.tsv"
     color_ordering_output_file = autogen_dir / "color_ordering.tsv"
