@@ -1,8 +1,9 @@
 #! bash
 # Check that file name equals lineage name
 fail=false
-for file in lineages/*.yml; do
-    if [ "lineages/$(yq .name $file).yml" != "$file" ]; then
+DEFINITIONS_DIR='definitions/IIb/sh2017'
+for file in $DEFINITIONS_DIR/*.yml; do
+    if [ "$DEFINITIONS_DIR/$(yq .name $file).yml" != "$file" ]; then
         echo "File name: $file does not match contained lineage name $(yq .name $file)"
         fail=true
     else

@@ -1,0 +1,20 @@
+name: sh2024
+clade: Ia
+designation_date: "2022-06-10"
+defining_snps:
+  - pos: 132431
+    nucleotide: A
+  - pos: 143630
+    nucleotide: A
+  - pos: 171897
+    nucleotide: A
+reference_sequences:
+  - source: genbank
+    accession: OZ254297
+    isolate: 24MPX2302S
+  - source: genbank
+    accession: OZ254730
+    isolate: 24MPX4140V
+  - source: genbank
+    accession: OZ261139
+    isolate: hMpxV/Ireland/NVRL-GIRL00012199/2025

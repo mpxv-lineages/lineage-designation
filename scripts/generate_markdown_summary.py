@@ -1,9 +1,9 @@
 #! python
 #%%
-import json
-import yaml
 import glob
-import datetime
+
+import yaml
+
 
 def generate_lineage_md(lineage):
     lines = []
@@ -23,7 +23,7 @@ def generate_lineage_md(lineage):
 
 lineages = []
 # Iterate through all lineage definition files
-for yaml_file in sorted(glob.glob('lineages/*.yml')):
+for yaml_file in sorted(glob.glob('definitions/IIb/sh2017/*.yml')):
     with open(yaml_file, 'r') as stream:
         yaml_data = yaml.safe_load(stream)
     lineages.append(yaml_data)

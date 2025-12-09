@@ -1,14 +1,32 @@
 # Mpox (formerly known as monkeypox) virus phylogenetic lineage designation
 
-This repository contains updates and details about monkeypox virus lineage designations.
-These lineages are meant to assist genomic epidemiology of monkeypox in humans and provide a fine-grained systematic nomenclature to refer to different circulating lineages.
+This repository contains updates and details about monkeypox virus outbreak and lineage designations.
+These outbreaks and lineages are meant to assist genomic epidemiology of mpox in humans and provide a fine-grained systematic nomenclature to refer to different circulating lineages.
 They do not imply any phenotypic differences.
-These lineages only apply to recent human cases and are distinct from broader clades of monkeypox viruses circulating in the animal reservoir I, IIa, and IIb, see [Happi et al](https://virological.org/t/urgent-need-for-a-non-discriminatory-and-non-stigmatizing-nomenclature-for-monkeypox-virus/853) and the recent [announcement by the WHO](https://worldhealthorganization.cmail20.com/t/ViewEmail/d/422BD62D623B6A3D2540EF23F30FEDED/F75AF81C90108C72B4B1B1F623478121?alternativeLink=False)).
-The recent outbreak among humans originated from clade IIb.
+These lineages only apply to recent human cases and are distinct from broader clades of monkeypox viruses circulating in the animal reservoir Ia, Ib, IIa, and IIb, see [Happi et al](https://virological.org/t/urgent-need-for-a-non-discriminatory-and-non-stigmatizing-nomenclature-for-monkeypox-virus/853) and the recent [announcement by the WHO](https://worldhealthorganization.cmail20.com/t/ViewEmail/d/422BD62D623B6A3D2540EF23F30FEDED/F75AF81C90108C72B4B1B1F623478121?alternativeLink=False).
+Outbreak lineages are defined in line with the nomenclature proposed in the paper _A systematic nomenclature for mpox viruses causing outbreaks with sustained human-to-human transmission_ (<https://www.nature.com/articles/s41591-025-03820-6>).
 
-## [Lineage summary](auto-generated/lineages.md)
+## Repository structure
 
-## Designation of lineages
+Each sustained outbreak definition is in its own yaml file within the corresponding clade's folder. Lineages within sustained outbreaks are defined in subfolders named after the sustained outbreak. This results in the following structure:
+
+```txt
+definitions/
+    IIb/
+        sh2017.yml
+        sh2017/
+            A.yml
+            A.1.yml
+            ...
+    Ib/
+        sh2023.yml
+    Ia/
+        sh2024.yml
+```
+
+## [Lineage summary for clade IIb/sh2017 lineages](auto-generated/lineages.md)
+
+## Designation of clade IIb/sh2017 lineages
 
 New lineages are designated as more cases are sequenced and the outbreak gets more diverse.
 The criteria for lineage designation will evolve as the outbreak continues.
