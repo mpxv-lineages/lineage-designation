@@ -24,19 +24,7 @@ definitions/
         sh2024.yml
 ```
 
-## [Lineage summary for clade IIb/sh2017 lineages](auto-generated/lineages.md)
-
-## Designation of clade IIb/sh2017 lineages
-
-New lineages are designated as more cases are sequenced and the outbreak gets more diverse.
-The criteria for lineage designation will evolve as the outbreak continues.
-Currently, we aim to designate a new lineage if it
-
-- has spread internationally
-- has at least 1 mutation above its parent
-- contains at least 15 sequences or plausibly represents undersampled diversity
-- has a clear common phylogenetic structure (no uncertainty about possibly being designated as 2 lineages instead of 1)
-- has at least one freely available high quality reference sequence (high quality meaning that it doesn't show unusually large numbers of frame shifts and/or stop codons)
+## Lineage definition files
 
 Each new lineage is defined by a `yaml` file according the [schema](schemas/single_lineage/lineage_schema_1-0-0.yml).
 For lineage [B.1](lineages/B.1.yml), for example, this looks like this
@@ -56,7 +44,23 @@ reference_sequences:
     isolate: MPXV_USA_2022_MA001
 ```
 
-An automatically generated `json` file which merges these `yaml` designations can be found [here](auto-generated/lineages.json), and a file with a key of the alias names can be found [here](auto-generated/alias_key.json).
+Defining SNPs are with respect to the reference sequence NC_063383 (MPXV-M5312_HM12_Rivers).
+
+## [Lineage summary for clade IIb/sh2017 lineages](auto-generated/lineages.md)
+
+## Designation of clade IIb/sh2017 lineages
+
+New lineages are designated as more cases are sequenced and the outbreak gets more diverse.
+The criteria for lineage designation will evolve as the outbreak continues.
+Currently, we aim to designate a new lineage if it
+
+- has spread internationally
+- has at least 1 mutation above its parent
+- contains at least 15 sequences or plausibly represents undersampled diversity
+- has a clear common phylogenetic structure (no uncertainty about possibly being designated as 2 lineages instead of 1)
+- has at least one freely available high quality reference sequence (high quality meaning that it doesn't show unusually large numbers of frame shifts and/or stop codons)
+
+An automatically generated `json` file which merges the `yaml` designations can be found [here](auto-generated/lineages.json), and a file with a key of the alias names can be found [here](auto-generated/alias_key.json).
 A human readable summary of all designated lineages can be found [here](auto-generated/lineages.md) .
 
 You can find markdown documents describing the rationale of lineage designation (including which lineages and why) in the "designation_records" folder.
