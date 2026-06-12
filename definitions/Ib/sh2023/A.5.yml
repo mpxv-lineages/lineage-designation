@@ -10,8 +10,8 @@ defining_snps:
     nucleotide: A
 reference_sequences:
   - source: pathoplexus
-    accession: PP_006KNVA
-    isolate: CL287619
+    accession: PP_001016L
+    isolate: KEMRI0010724-nvrl220
   - source: pathoplexus
-    accession: PP_004G68A
-    isolate: MCL_24_H_MPXV_176_4240_DNA_1073
+    accession: PP_006KPSF
+    isolate: CL288081

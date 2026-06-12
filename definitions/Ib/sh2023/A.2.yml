@@ -5,9 +5,9 @@ parent: A
 designation_date: "TKTK"
 defining_snps:
   - pos: 138816
-    nucleotide: G
+    nucleotide: A
   - pos: 165799
-    nucleotide: C
+    nucleotide: T
 reference_sequences:
   - source: pathoplexus
     accession: PP_0014F50
