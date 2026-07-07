@@ -53,7 +53,7 @@ reference_sequences:
     isolate: MPXV_USA_2022_MA001
 ```
 
-Defining SNPs are with respect to the reference sequence NC_063383 (MPXV-M5312_HM12_Rivers).
+Defining SNPs are given with respect to the reference sequence NC_063383 (MPXV-M5312_HM12_Rivers).
 
 ## Designation of clade IIb/sh2017 lineages
 
