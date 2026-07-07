@@ -21,7 +21,7 @@ definitions/
             A.1.yml
             ...
     Ib/
-        sh2023.yml/
+        sh2023/
             A.yml
             A.1.yml
             ...
