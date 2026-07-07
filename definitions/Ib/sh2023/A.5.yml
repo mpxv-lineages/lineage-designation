@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../../../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: A.5
+unaliased_name: A.5
+parent: A
+designation_date: "2026-07-07"
+defining_snps:
+  - pos: 4301
+    nucleotide: T
+  - pos: 127872
+    nucleotide: A
+reference_sequences:
+  - source: pathoplexus
+    accession: PP_001016L
+    isolate: KEMRI0010724-nvrl220
+  - source: pathoplexus
+    accession: PP_006KPSF
+    isolate: CL288081

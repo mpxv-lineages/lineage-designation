@@ -50,6 +50,7 @@ properties:
         source:
           enum:
             - genbank
+            - pathoplexus
           description: Source of the reference sequence, e.g. genbank
         accession:
           type: string

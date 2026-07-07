@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../../../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: A.4.1
+unaliased_name: A.4.1
+parent: A.4
+designation_date: "2026-07-07"
+defining_snps:
+  - pos: 3656
+    nucleotide: A
+  - pos: 17707
+    nucleotide: T
+reference_sequences:
+  - source: pathoplexus
+    accession: PP_006XGN6
+    isolate: Monkeypox virus/human/Thailand/DDCBIDI-004/2025
+  - source: pathoplexus
+    accession: PP_006WSXE
+    isolate: MPXV/Ib/Germany/2025/ON/RKI1474

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../../../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: A.2
+unaliased_name: A.2
+parent: A
+designation_date: "2026-07-07"
+defining_snps:
+  - pos: 138816
+    nucleotide: A
+  - pos: 165799
+    nucleotide: T
+reference_sequences:
+  - source: pathoplexus
+    accession: PP_0014F50
+    isolate: Mpxv/human/CAN/UN-NML-6349/2024
+  - source: pathoplexus
+    accession: PP_006VEEV
+    isolate: MPXV_USA_2026_IL0100

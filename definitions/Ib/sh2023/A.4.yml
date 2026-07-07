@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../../../schemas/single_lineage/lineage_schema_1-0-0.yml
+name: A.4
+unaliased_name: A.4
+parent: A
+designation_date: "2026-07-07"
+defining_snps:
+  - pos: 149636
+    nucleotide: T
+  - pos: 171609
+    nucleotide: A
+reference_sequences:
+  - source: pathoplexus
+    accession: PP_006KNVA
+    isolate: CL287619
+  - source: pathoplexus
+    accession: PP_004G68A
+    isolate: MCL_24_H_MPXV_176_4240_DNA_1073
